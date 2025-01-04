@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "PackagePath": "staticwebassets\\PersonalFinanceExpenses.styles.css"
+    },
+    {
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
+      "PackagePath": "staticwebassets\\Data\\credentials.json"
+    },
+    {
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.PersonalFinanceExpenses.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.PersonalFinanceExpenses.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.PersonalFinanceExpenses.props",
+      "PackagePath": "build\\PersonalFinanceExpenses.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildMultiTargeting.PersonalFinanceExpenses.props",
+      "PackagePath": "buildMultiTargeting\\PersonalFinanceExpenses.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildTransitive.PersonalFinanceExpenses.props",
+      "PackagePath": "buildTransitive\\PersonalFinanceExpenses.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

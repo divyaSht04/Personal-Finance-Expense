@@ -1,0 +1,59 @@
+﻿@page "/dashboard"
+
+<body>
+<nav class="sidebar">
+    <ul class="sidebar-nav">
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="transactions.html">All Transactions</a></li>
+    </ul>
+    <a href="/login.html" class="logout-btn">Logout</a>
+</nav>
+
+<main class="main-content">
+    <div class="header">
+        <h1>Dashboard</h1>
+        <span class="user-name">Divya Shrestha</span>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <h3>Total Inflow</h3>
+            <div class="amount">$5,240</div>
+        </div>
+        <div class="stat-card">
+            <h3>Cash Outflow</h3>
+            <div class="amount">$3,120</div>
+        </div>
+        <div class="stat-card">
+            <h3>Due Debt</h3>
+            <div class="amount">$890</div>
+        </div>
+        <div class="stat-card">
+            <h3>Clear Debt</h3>
+            <div class="amount">$1,230</div>
+        </div>
+    </div>
+
+    <div class="charts-section">
+        <div class="pie-chart">
+            <!-- Placeholder for pie chart -->
+            <canvas id="distributionChart"></canvas>
+        </div>
+        <div class="line-charts">
+            <div class="chart-card">
+                <h3>Inflow Data</h3>
+                <canvas id="inflowChart"></canvas>
+            </div>
+            <div class="chart-card">
+                <h3>Outflow Data</h3>
+                <canvas id="outflowChart"></canvas>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+
+@code {
+    
+}
