@@ -2,7 +2,7 @@
 
 namespace PersonalFinanceExpenses.Components.Pages;
 
-public partial class Transcation : ComponentBase
+public partial class TranscationPage : ComponentBase
 {
     
 }
