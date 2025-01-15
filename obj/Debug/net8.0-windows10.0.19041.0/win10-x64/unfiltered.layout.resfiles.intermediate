@@ -1,6 +1,7 @@
 Components\Layout\MainLayout.razor.css
 Components\Layout\NavMenu.razor.css
 Components\Pages\Dashboard.razor.css
+Components\Pages\EditTranscation.razor.css
 Components\Pages\LoginPage.razor.css
 Components\Pages\TranscationForm.razor.css
 Components\Pages\TranscationPage.razor.css
@@ -62,7 +63,7 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 wwwroot\PersonalFinanceExpenses.styles.css
-wwwroot\PersonalFinanceExpenses.ag60djhk29.bundle.scp.css
+wwwroot\PersonalFinanceExpenses.lqel4uiat0.bundle.scp.css
 AboutAssets.txt
 wwwroot\Data\credentials.json
 wwwroot\Data\transactions.json

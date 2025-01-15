@@ -13,8 +13,8 @@ public partial class TranscationPage : ComponentBase
     protected override async Task OnInitializedAsync()
     {
         Transactions = TranscationService.GetTranscations();
-        HighestTransactions = Transactions.OrderByDescending(t => t.TransactionAmount).Take(3).ToList();
-        LowestTransactions = Transactions.OrderBy(t => t.TransactionAmount).Take(4).ToList();
+        HighestTransactions = Transactions.OrderByDescending(t => t.TransactionAmount).Take(5).ToList();
+        LowestTransactions = Transactions.OrderBy(t => t.TransactionAmount).Take(5).ToList();
     }
 
     private void ExportTransactions()
@@ -28,7 +28,7 @@ public partial class TranscationPage : ComponentBase
         if (transaction != null)
         {
             Transactions.Remove(transaction);
-            TranscationService.SaveTransactions(Transactions);
+            TranscationService.SaveTranscation(Transactions);
         }
         OnInitializedAsync();
     }

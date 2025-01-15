@@ -10,5 +10,6 @@ public interface ITranscations
     void AddTransaction(Transaction transaction);
 
     void SaveTransactions(List<Transaction> transactions);
+    void SaveTranscation(List<Transaction> transaction);
 }
     

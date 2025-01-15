@@ -28,8 +28,9 @@ public class TranscationService : TranscationBase, ITranscations
         SaveTransactions(_transactions);
     }
 
-    private void SaveTransactions(List<Transaction> transactions)
+    public void SaveTranscation(List<Transaction> transaction)
     {
-        SaveTransactions(transactions);
+        SaveTransactions(transaction);
     }
+    
 }

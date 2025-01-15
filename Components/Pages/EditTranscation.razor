@@ -1,0 +1,37 @@
+﻿@page "/transactionForm/edit/{TransactionId:int}"
+<h1>Edit Transaction</h1>
+
+<div class="transaction-form">
+    <form @onsubmit="HandleSubmit">
+        <div class="form-group">
+            <label for="id">Transaction ID</label>
+            <input type="number" id="id" @bind="transaction.Id" disabled>
+        </div>
+        <div class="form-group">
+            <label for="amount">Transaction Amount</label>
+            <input type="number" id="amount" @bind="transaction.TransactionAmount" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Transaction Date</label>
+            <input type="date" id="date" @bind="transaction.Date" required>
+        </div>
+        <div class="form-group">
+            <label for="type">Transaction Type</label>
+            <select id="type" @bind="transaction.Type">
+                <option value="Credit">Credit</option>
+                <option value="Debit">Debit</option>
+                <option value="Debt">Debt</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="source">Transaction Sources</label>
+            <input type="text" id="source" placeholder="Enter sources, comma-separated" @bind="sourceInput" required>
+        </div>
+        <div class="form-group">
+            <label for="note">Note</label>
+            <textarea id="note" @bind="transaction.Note" placeholder="Enter a note"></textarea>
+        </div>
+        <button type="submit" class="submit-button">Save Changes</button>
+        <button type="button" class="cancel-button" @onclick="CancelEdit">Cancel</button>
+    </form>
+</div>

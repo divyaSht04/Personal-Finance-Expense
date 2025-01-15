@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ijkyq8wbbj</Fingerprint>
-      <Integrity>gimCG0gYiFjWe8Qis01CKKCJCpN33Py8IFLjc+SmrZ8=</Integrity>
+      <Fingerprint>fv7t1xd0tq</Fingerprint>
+      <Integrity>5Z1Z/vJO4MnJxJfIk2k3nX8+kc0TDpY2/0PXcUMHrv4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\transactions.json'))</OriginalItemSpec>
@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>ag60djhk29</Fingerprint>
-      <Integrity>qomqE0zi5CRVY13E6I6OzbBuc4vBqxwwf0na/zZtmfc=</Integrity>
+      <Fingerprint>lqel4uiat0</Fingerprint>
+      <Integrity>I2bAPJ4CQXy7ixLXYxv3G76MocIWGZ2wimVHuQFT0aI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</OriginalItemSpec>

@@ -1,13 +1,24 @@
 [
   {
     "Id": 1,
-    "TransactionAmount": 1500.75,
+    "TransactionAmount": 1513,
     "Date": "2025-01-15",
     "Type": "Credit",
     "Source": [
       "Salary",
-      "Bonus"
+      "  Bonus",
+      "  Hahaha"
     ],
     "Note": "Monthly salary"
+  },
+  {
+    "Id": 6,
+    "TransactionAmount": 4000,
+    "Date": "2025-01-12",
+    "Type": "Debit",
+    "Source": [
+      "yutubuibvd"
+    ],
+    "Note": "eefeds"
   }
 ]
