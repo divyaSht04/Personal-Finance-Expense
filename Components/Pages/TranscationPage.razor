@@ -1,52 +1,128 @@
 ﻿@page "/transactions"
 
 <body>
-    <nav class="sidebar">
-        <ul class="sidebar-nav">
-            <li><a href="/dashboard" class="active">Dashboard</a></li>
-            <li><a href="/history">History</a></li>
-            <li><a href="/transactions">All Transactions</a></li>
-        </ul>
-        <a href="/" class="logout-btn">Logout</a>
-    </nav>
+<nav class="sidebar">
+    <ul class="sidebar-nav">
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/transactions" class="active">All Transactions</a></li>
+    </ul>
+    <a href="/" class="logout-btn">Logout</a>
+</nav>
 
-    <main class="transactions-container">
-        <header class="transactions-header">
-            <h1>All Transactions</h1>
-            <button class="export-btn">Export</button>
-        </header>
+<main class="transactions-container">
+    <header class="transactions-header">
+        <h1>All Transactions</h1>
+        <button class="export-btn" @onclick="ExportTransactions">Export</button>
+    </header>
 
-        <div class="transactions-table">
-            <table>
-                <thead>
+    <div class="transactions-table">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Transaction Type</th>
+                <th>Date</th>
+                <th>Source</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (Transactions != null && Transactions.Any())
+            {
+                @foreach (var transaction in Transactions)
+                {
                     <tr>
-                        <th>ID</th>
-                        <th>Transaction Type</th>
-                        <th>Date</th>
-                        <th>Source</th>
-                        <th>Note</th>
+                        <td>@transaction.Id</td>
+                        <td>@transaction.Type</td>
+                        <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@string.Join(", ", transaction.Source)</td>
+                        <td>@transaction.Note</td>
+                        <td>
+                            <button class="action-btn edit-btn" @onclick="() => EditTransaction(transaction.Id)">Edit</button>
+                            <button class="action-btn delete-btn" @onclick="() => DeleteTransaction(transaction.Id)">Delete</button>
+                        </td>
                     </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6">No transactions available.</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="transaction-highlights">
+        <section class="highest-transactions">
+            <h2 class="transaction-table-header">Highest Transactions</h2>
+            <table class="transaction-highlight-table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Transaction Amount</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <!-- Table rows will be populated dynamically -->
+                @if (HighestTransactions != null && HighestTransactions.Any())
+                {
+                    @foreach (var transaction in HighestTransactions)
+                    {
+                        <tr>
+                            <td>@transaction.Id</td>
+                            <td>@transaction.TransactionAmount</td>
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No highest transactions available.</td>
+                    </tr>
+                }
                 </tbody>
             </table>
-        </div>
+        </section>
 
-        <div class="transaction-highlights">
-            <section class="highest-transactions">
-                <h2>Highest Transactions</h2>
-                <div class="transaction-cards">
-                    <!-- Highest transaction cards -->
-                </div>
-            </section>
-
-            <section class="lowest-transactions">
-                <h2>Lowest Transactions</h2>
-                <div class="transaction-cards">
-                   
-                </div>
-            </section>
-        </div>
-    </main>
+        <section class="lowest-transactions">
+            <h2 class="transaction-table-header">Lowest Transactions</h2>
+            <table class="transaction-highlight-table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Transaction Amount</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                @if (LowestTransactions != null && LowestTransactions.Any())
+                {
+                    @foreach (var transaction in LowestTransactions)
+                    {
+                        <tr>
+                            <td>@transaction.Id</td>
+                            <td>@transaction.TransactionAmount</td>
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No lowest transactions available.</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </section>
+    </div>
+</main>
 </body>

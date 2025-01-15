@@ -331,7 +331,9 @@ D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PersonalFinanceExpenses.genruntimeconfig.cache
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\ref\PersonalFinanceExpenses.dll
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Pages\LoginPage.razor.rz.scp.css
-D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Pages\Transcation.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Pages\Dashboard.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PersonalFinanceExpenses.sourcelink.json
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Pages\TranscationPage.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\scopedcss\Components\Pages\TranscationForm.razor.rz.scp.css

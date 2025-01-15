@@ -1109,7 +1109,9 @@ D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Pages\LoginPage.razor.rz.scp.css
-D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Pages\Transcation.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Pages\Dashboard.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\PersonalFinanceExpenses.sourcelink.json
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Pages\TranscationPage.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-android\scopedcss\Components\Pages\TranscationForm.razor.rz.scp.css

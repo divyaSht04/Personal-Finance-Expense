@@ -9,7 +9,7 @@ public partial class LoginPage : ComponentBase
 
     public void HandleLogin() 
     {
-        if (UserService.Login(Users))
+        if (UserService.Login(Users))   
         {
             Nav.NavigateTo("/dashboard");
         }

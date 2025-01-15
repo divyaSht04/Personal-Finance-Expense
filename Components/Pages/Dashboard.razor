@@ -3,18 +3,20 @@
 <body>
 <nav class="sidebar">
     <ul class="sidebar-nav">
-        <li><a href="dashboard.html" class="active">Dashboard</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="transactions.html">All Transactions</a></li>
+        <li><a href="/dashboard" class="active"> Dashboard</a></li>
+        <li><a href="/transactions">All Transactions</a></li>
     </ul>
-    <a href="/login.html" class="logout-btn">Logout</a>
+    <a href="/" class="logout-btn">Logout</a>
 </nav>
 
-<main class="main-content">
-    <div class="header">
+<main class="dashboard-container">
+    <header class="dashboard-header">
         <h1>Dashboard</h1>
-        <span class="user-name">Divya Shrestha</span>
-    </div>
+        <div class="header-actions">
+            <button class="add-transaction-btn"> <a href="/transcationForm"> Add Transaction  </a>  </button>
+            <div class="user-name">Divya Shrestha</div>
+        </div>
+    </header>
 
     <div class="stats-grid">
         <div class="stat-card">
@@ -35,25 +37,35 @@
         </div>
     </div>
 
-    <div class="charts-section">
-        <div class="pie-chart">
-            <!-- Placeholder for pie chart -->
-            <canvas id="distributionChart"></canvas>
-        </div>
-        <div class="line-charts">
-            <div class="chart-card">
+    <div class="charts-container">
+        <div class="chart-card">
+            <div class="chart-header">
                 <h3>Inflow Data</h3>
-                <canvas id="inflowChart"></canvas>
+                <div class="chart-filters">
+                    <select class="date-filter">
+                        <option>Last 7 days</option>
+                        <option>Last 30 days</option>
+                        <option>Last 90 days</option>
+                    </select>
+                    <button class="filter-btn">Filter</button>
+                </div>
             </div>
-            <div class="chart-card">
+            <div class="chart-area" id="inflow-chart"></div>
+        </div>
+        <div class="chart-card">
+            <div class="chart-header">
                 <h3>Outflow Data</h3>
-                <canvas id="outflowChart"></canvas>
+                <div class="chart-filters">
+                    <select class="date-filter">
+                        <option>Last 7 days</option>
+                        <option>Last 30 days</option>
+                        <option>Last 90 days</option>
+                    </select>
+                    <button class="filter-btn">Filter</button>
+                </div>
             </div>
+            <div class="chart-area" id="outflow-chart"></div>
         </div>
     </div>
 </main>
 </body>
-
-@code {
-    
-}

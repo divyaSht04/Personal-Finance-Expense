@@ -1,33 +1,35 @@
-﻿using System.Runtime.InteropServices.JavaScript;
+﻿using System.Net.Http.Json;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text.Json;
 using PersonalFinanceExpenses.Abstraction;
 using PersonalFinanceExpenses.Model;
+using PersonalFinanceExpenses.Service.Interface;
 
 namespace PersonalFinanceExpenses.Service;
 
-public class TranscationService : TranscationBase
+public class TranscationService : TranscationBase, ITranscations
 {
-    private List<Transaction> _transactions;
-    private Transaction transaction;
+    private readonly List<Transaction> _transactions;
 
     public TranscationService()
     {
-        string transcationsPath = Path.Combine(AppContext.BaseDirectory, "Data", "transcations.json");
-        string jsonContent = File.ReadAllText(transcationsPath);
-        transaction = JsonSerializer.Deserialize<Transaction>(jsonContent) ?? throw new InvalidOperationException("Failed to load default credentials");
-        _transactions = LoadUser();
-        if (!_transactions.Any())
-        {
-            _transactions.Add(new Transaction
-            {
-                Id = transaction.Id,
-                Date = transaction.Date,
-                Note = transaction.Note,
-                Source = transaction.Source,
-                TransactionAmount = transaction.TransactionAmount,
-            });
-            SaveUser(_transactions);
-        }
-        
+        _transactions = loadAllTransactions();
+    }
+
+    // Retrieve all transactions
+    public List<Transaction> GetTranscations()
+    {
+        return _transactions;
+    }
+    
+    public void AddTransaction(Transaction transaction)
+    {
+        _transactions.Add(transaction);
+        SaveTransactions(_transactions);
+    }
+
+    private void SaveTransactions(List<Transaction> transactions)
+    {
+        SaveTransactions(transactions);
     }
 }

@@ -1,6 +1,14 @@
-﻿namespace PersonalFinanceExpenses.Service.Interface;
+﻿
+
+using PersonalFinanceExpenses.Model;
+
+namespace PersonalFinanceExpenses.Service.Interface;
 
 public interface ITranscations
 {
-    
+    List<Transaction> GetTranscations();
+    void AddTransaction(Transaction transaction);
+
+    void SaveTransactions(List<Transaction> transactions);
 }
+    

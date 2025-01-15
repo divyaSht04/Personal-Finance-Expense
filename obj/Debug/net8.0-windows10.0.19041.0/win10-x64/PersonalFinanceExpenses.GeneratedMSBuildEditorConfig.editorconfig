@@ -84,9 +84,16 @@ build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpblBhZ2Uu
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-7y6v3xig8v
 
-[D:/Third Year All folder/dotNet/First Sem/PersonalFinanceExpenses/Components/Pages/Transcation.razor]
+[D:/Third Year All folder/dotNet/First Sem/PersonalFinanceExpenses/Components/Pages/TranscationForm.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2NhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2NhdGlvbkZvcm0ucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
-build_metadata.AdditionalFiles.CssScope = b-i974glogmf
+build_metadata.AdditionalFiles.CssScope = b-ueycvkhqnc
+
+[D:/Third Year All folder/dotNet/First Sem/PersonalFinanceExpenses/Components/Pages/TranscationPage.razor]
+build_metadata.AdditionalFiles.GenKind = 
+build_metadata.AdditionalFiles.ManifestResourceName = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUcmFuc2NhdGlvblBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.RelativePath = 
+build_metadata.AdditionalFiles.CssScope = b-mlur3eb5c3

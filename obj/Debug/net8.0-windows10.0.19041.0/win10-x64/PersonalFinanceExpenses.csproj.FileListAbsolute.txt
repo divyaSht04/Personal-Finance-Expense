@@ -208,7 +208,9 @@ D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\LoginPage.razor.rz.scp.css
-D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\Transcation.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\Dashboard.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.sourcelink.json
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\TranscationPage.razor.rz.scp.css
+D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\Components\Pages\TranscationForm.razor.rz.scp.css

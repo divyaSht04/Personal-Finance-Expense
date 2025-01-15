@@ -17,14 +17,15 @@ namespace PersonalFinanceExpenses
                 });
 
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ITranscations, TranscationService>();
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ITranscations, TranscationService>();
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-
             return builder.Build();
         }
     }

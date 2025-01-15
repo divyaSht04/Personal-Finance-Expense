@@ -1,0 +1,175 @@
+.sidebar[b-mlur3eb5c3] {
+    width: 250px;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav[b-mlur3eb5c3] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.sidebar-nav li[b-mlur3eb5c3] {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-nav a[b-mlur3eb5c3] {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #4a5568;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav a:hover[b-mlur3eb5c3],
+.sidebar-nav a.active[b-mlur3eb5c3] {
+    background-color: #667eea;
+    color: white;
+}
+
+.logout-btn[b-mlur3eb5c3] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.logout-btn:hover[b-mlur3eb5c3] {
+    background-color: #c53030;
+}
+
+.transactions-container[b-mlur3eb5c3] {
+    margin-left: 250px;
+    padding: 2rem;
+    background-color: #f7fafc;
+    min-height: 100vh;
+}
+
+.transactions-header[b-mlur3eb5c3] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.transactions-table[b-mlur3eb5c3] {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+table[b-mlur3eb5c3] {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th[b-mlur3eb5c3], td[b-mlur3eb5c3] {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th[b-mlur3eb5c3] {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.transaction-highlights[b-mlur3eb5c3] {
+    display: grid;
+    gap: 2rem;
+}
+
+.highest-transactions[b-mlur3eb5c3],
+.lowest-transactions[b-mlur3eb5c3] {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-table-header[b-mlur3eb5c3] {
+    color: #2d3748;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.transaction-highlight-table[b-mlur3eb5c3] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.transaction-highlight-table th[b-mlur3eb5c3],
+.transaction-highlight-table td[b-mlur3eb5c3] {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-highlight-table th[b-mlur3eb5c3] {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.transaction-highlight-table tr:last-child td[b-mlur3eb5c3] {
+    border-bottom: none;
+}
+
+h2[b-mlur3eb5c3] {
+    color: #2d3748;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.action-btn[b-mlur3eb5c3] {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.edit-btn[b-mlur3eb5c3] {
+    background-color: #3182ce;
+    color: white;
+}
+
+.edit-btn:hover[b-mlur3eb5c3] {
+    background-color: #2b6cb0;
+}
+
+.delete-btn[b-mlur3eb5c3] {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.delete-btn:hover[b-mlur3eb5c3] {
+    background-color: #c53030;
+}
+

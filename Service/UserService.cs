@@ -11,28 +11,27 @@ public class UserService : Userbase, IUserService
     private readonly User user;
     public UserService()
     {
-        string filename = FileSystem.AppDataDirectory;
-        string credentialsPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "credentials.json");
+        string credentialsPath = Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot", "Data", "credentials.json");
         string jsonContent = File.ReadAllText(credentialsPath);
         user = JsonSerializer.Deserialize<User>(jsonContent) ?? throw new InvalidOperationException("Failed to load default credentials");
         _users = LoadUser();
         if (!_users.Any())
         {
-            _users.Add(new User 
-            { 
-                username = user.username, 
-                password = user.password 
-            });
+            User newUser = new User();
+            newUser.Username = user.Username;
+            newUser.Password = user.Password;
+            _users.Add(newUser);
             SaveUser(_users);
         }
     }
+
     public bool Login(User users)
     {
-        if (string.IsNullOrEmpty(users.username) || string.IsNullOrEmpty(users.password))
+        if (string.IsNullOrEmpty(users.Username) || string.IsNullOrEmpty(users.Password))
         {
             return false;
         }
-        return _users.Any(u => u.username == users.username && u.password == users.password);
+        return _users.Any(u => u.Username == users.Username && u.Password == users.Password);
     }
     public bool Register(User users)
     {

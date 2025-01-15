@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "TransactionAmount": 2500.0,
+    "Date": "2025-01-10",
+    "Type": ["inflow"],
+    "Source": "Salary",
+    "Note": "Monthly salary deposit"
+  },
+  {
+    "Id": 2,
+    "TransactionAmount": 500.0,
+    "Date": "2025-01-11",
+    "Type": ["outflow"],
+    "Source": "Groceries",
+    "Note": "Weekly grocery shopping"
+  },
+  {
+    "Id": 3,
+    "TransactionAmount": 1000.0,
+    "Date": "2025-01-12",
+    "Type": ["debt"],
+    "Source": "Credit Card",
+    "Note": "Credit card payment"
+  },
+  {
+    "Id": 4,
+    "TransactionAmount": 2500.0,
+    "Date": "2025-01-10",
+    "Type": ["inflow"],
+    "Source": "Salary",
+    "Note": "Monthly salary deposit"
+  },
+  {
+    "Id": 5,
+    "TransactionAmount": 2500.0,
+    "Date": "2025-01-10",
+    "Type": ["inflow"],
+    "Source": "Salary",
+    "Note": "Monthly salary deposit"
+  },
+  {
+    "Id": 6,
+    "TransactionAmount": 2500.0,
+    "Date": "2025-01-10",
+    "Type": ["inflow"],
+    "Source": "Salary",
+    "Note": "Monthly salary deposit"
+  }
+]

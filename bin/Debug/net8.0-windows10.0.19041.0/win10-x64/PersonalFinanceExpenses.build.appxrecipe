@@ -43,6 +43,9 @@
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\credentials.json">
       <PackagePath>wwwroot\Data\credentials.json</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\transactions.json">
+      <PackagePath>wwwroot\Data\transactions.json</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
     </AppxPackagedFile>
@@ -503,7 +506,7 @@
       <PackagePath>wwwroot\PersonalFinanceExpenses.styles.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
-      <PackagePath>wwwroot\PersonalFinanceExpenses.67ytmdkn1u.bundle.scp.css</PackagePath>
+      <PackagePath>wwwroot\PersonalFinanceExpenses.ag60djhk29.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -517,8 +520,11 @@
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\LoginPage.razor.css">
       <PackagePath>Components\Pages\LoginPage.razor.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\Transcation.razor.css">
-      <PackagePath>Components\Pages\Transcation.razor.css</PackagePath>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationForm.razor.css">
+      <PackagePath>Components\Pages\TranscationForm.razor.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationPage.razor.css">
+      <PackagePath>Components\Pages\TranscationPage.razor.css</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
