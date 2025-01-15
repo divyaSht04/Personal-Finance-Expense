@@ -15,8 +15,7 @@ public class TranscationService : TranscationBase, ITranscations
     {
         _transactions = loadAllTransactions();
     }
-
-    // Retrieve all transactions
+    
     public List<Transaction> GetTranscations()
     {
         return _transactions;

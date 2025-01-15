@@ -16,14 +16,15 @@ namespace PersonalFinanceExpenses
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
 
+
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ITranscations, TranscationService>();
             builder.Services.AddScoped<ITagsService, TagsService>();
+            builder.Services.AddScoped<IDeptService, DebtService>();
+
             builder.Services.AddMauiBlazorWebView();
 
 #if DEBUG
-            builder.Services.AddScoped<IUserService, UserService>();
-            builder.Services.AddScoped<ITranscations, TranscationService>();
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif

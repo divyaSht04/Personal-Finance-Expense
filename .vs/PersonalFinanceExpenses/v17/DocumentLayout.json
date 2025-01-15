@@ -3,48 +3,8 @@
   "WorkspaceRootPath": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\transcationpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\transcationpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\transcationform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\transcationform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\transcationform.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\transcationform.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\abstraction\\transcationbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:abstraction\\transcationbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\service\\transcationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:service\\transcationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\model\\transcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:model\\transcation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\transcationpage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\transcationpage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 73,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,136 +30,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LoginPage.razor",
               "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\LoginPage.razor",
               "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
               "RelativeToolTip": "Components\\Pages\\LoginPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:30:47.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Dashboard.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:27:16.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TranscationBase.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
-              "RelativeDocumentMoniker": "Abstraction\\TranscationBase.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
-              "RelativeToolTip": "Abstraction\\TranscationBase.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:19:55.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "Components\\_Imports.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\_Imports.razor",
-              "RelativeToolTip": "Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:34:14.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Transcation.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Model\\Transcation.cs",
-              "RelativeDocumentMoniker": "Model\\Transcation.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Model\\Transcation.cs",
-              "RelativeToolTip": "Model\\Transcation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:32:14.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TranscationService.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Service\\TranscationService.cs",
-              "RelativeDocumentMoniker": "Service\\TranscationService.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Service\\TranscationService.cs",
-              "RelativeToolTip": "Service\\TranscationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:19:14.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TranscationForm.razor.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationForm.razor.cs",
-              "RelativeDocumentMoniker": "Components\\Pages\\TranscationForm.razor.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationForm.razor.cs",
-              "RelativeToolTip": "Components\\Pages\\TranscationForm.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:18:12.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TranscationForm.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationForm.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\TranscationForm.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationForm.razor",
-              "RelativeToolTip": "Components\\Pages\\TranscationForm.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:18:07.418Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TranscationPage.razor.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationPage.razor.cs",
-              "RelativeDocumentMoniker": "Components\\Pages\\TranscationPage.razor.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationPage.razor.cs",
-              "RelativeToolTip": "Components\\Pages\\TranscationPage.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:04:04.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TranscationPage.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationPage.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\TranscationPage.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationPage.razor",
-              "RelativeToolTip": "Components\\Pages\\TranscationPage.razor",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:03:21.759Z",
+              "WhenOpened": "2025-01-15T21:23:05.353Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Service\\UserService.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Service\\UserService.cs",
-              "RelativeToolTip": "Service\\UserService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T02:55:52.923Z"
             }
           ]
         }

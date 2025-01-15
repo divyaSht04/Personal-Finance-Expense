@@ -85,7 +85,89 @@
       ]
     },
     {
-      "Route": "Data/tags.hqohe8kdg7.json",
+      "Route": "Data/debts.ezc5aqnglv.json",
+      "AssetFile": "Data/debts.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jIo4ty4dGpPDLw9N9dVlQL3UiOOKHvLx7kJ9JYIWoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 21:54:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ezc5aqnglv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jIo4ty4dGpPDLw9N9dVlQL3UiOOKHvLx7kJ9JYIWoY="
+        },
+        {
+          "Name": "label",
+          "Value": "Data/debts.json"
+        }
+      ]
+    },
+    {
+      "Route": "Data/debts.json",
+      "AssetFile": "Data/debts.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+jIo4ty4dGpPDLw9N9dVlQL3UiOOKHvLx7kJ9JYIWoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 21:54:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+jIo4ty4dGpPDLw9N9dVlQL3UiOOKHvLx7kJ9JYIWoY="
+        }
+      ]
+    },
+    {
+      "Route": "Data/tags.8x6908x98d.json",
       "AssetFile": "Data/tags.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -99,7 +181,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "100"
+          "Value": "147"
         },
         {
           "Name": "Content-Type",
@@ -107,21 +189,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h/rkpwl83aSl8dbrtrnpmxNGk962Yw0H9Q7wUyqBjXY=\""
+          "Value": "\"TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:25:50 GMT"
+          "Value": "Wed, 15 Jan 2025 19:48:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hqohe8kdg7"
+          "Value": "8x6908x98d"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-h/rkpwl83aSl8dbrtrnpmxNGk962Yw0H9Q7wUyqBjXY="
+          "Value": "sha256-TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU="
         },
         {
           "Name": "label",
@@ -144,7 +226,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "100"
+          "Value": "147"
         },
         {
           "Name": "Content-Type",
@@ -152,17 +234,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h/rkpwl83aSl8dbrtrnpmxNGk962Yw0H9Q7wUyqBjXY=\""
+          "Value": "\"TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:25:50 GMT"
+          "Value": "Wed, 15 Jan 2025 19:48:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-h/rkpwl83aSl8dbrtrnpmxNGk962Yw0H9Q7wUyqBjXY="
+          "Value": "sha256-TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU="
         }
       ]
     },
@@ -249,7 +331,7 @@
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.p1faoelumt.styles.css",
+      "Route": "PersonalFinanceExpenses.ronzmes14b.styles.css",
       "AssetFile": "PersonalFinanceExpenses.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -263,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24346"
+          "Value": "28137"
         },
         {
           "Name": "Content-Type",
@@ -271,21 +353,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U7Wqi4NvOHzcFfgTzCUDT2UKFRG+aCD8touvqegjonI=\""
+          "Value": "\"Vc856PMH8NbbIFn92b0+IVQnBc8pW9BmtmUSvxXkdrA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:42:59 GMT"
+          "Value": "Wed, 15 Jan 2025 21:57:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "p1faoelumt"
+          "Value": "ronzmes14b"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-U7Wqi4NvOHzcFfgTzCUDT2UKFRG+aCD8touvqegjonI="
+          "Value": "sha256-Vc856PMH8NbbIFn92b0+IVQnBc8pW9BmtmUSvxXkdrA="
         },
         {
           "Name": "label",
@@ -308,7 +390,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24346"
+          "Value": "28137"
         },
         {
           "Name": "Content-Type",
@@ -316,17 +398,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"U7Wqi4NvOHzcFfgTzCUDT2UKFRG+aCD8touvqegjonI=\""
+          "Value": "\"Vc856PMH8NbbIFn92b0+IVQnBc8pW9BmtmUSvxXkdrA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:42:59 GMT"
+          "Value": "Wed, 15 Jan 2025 21:57:39 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-U7Wqi4NvOHzcFfgTzCUDT2UKFRG+aCD8touvqegjonI="
+          "Value": "sha256-Vc856PMH8NbbIFn92b0+IVQnBc8pW9BmtmUSvxXkdrA="
         }
       ]
     },

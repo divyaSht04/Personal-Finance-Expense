@@ -1,4 +1,5 @@
 wwwroot\Data\credentials.json
+wwwroot\Data\debts.json
 wwwroot\Data\tags.json
 wwwroot\Data\transactions.json
 wwwroot\favicon.png

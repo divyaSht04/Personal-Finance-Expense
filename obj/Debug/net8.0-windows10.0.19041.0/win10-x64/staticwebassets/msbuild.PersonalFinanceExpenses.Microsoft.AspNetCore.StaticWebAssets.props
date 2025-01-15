@@ -18,6 +18,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\credentials.json'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\debts.json'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PersonalFinanceExpenses</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>Data/debts.json</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ezc5aqnglv</Fingerprint>
+      <Integrity>+jIo4ty4dGpPDLw9N9dVlQL3UiOOKHvLx7kJ9JYIWoY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\debts.json'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\tags.json'))">
       <SourceType>Package</SourceType>
       <SourceId>PersonalFinanceExpenses</SourceId>
@@ -30,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hqohe8kdg7</Fingerprint>
-      <Integrity>h/rkpwl83aSl8dbrtrnpmxNGk962Yw0H9Q7wUyqBjXY=</Integrity>
+      <Fingerprint>8x6908x98d</Fingerprint>
+      <Integrity>TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\tags.json'))</OriginalItemSpec>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>p1faoelumt</Fingerprint>
-      <Integrity>U7Wqi4NvOHzcFfgTzCUDT2UKFRG+aCD8touvqegjonI=</Integrity>
+      <Fingerprint>ronzmes14b</Fingerprint>
+      <Integrity>Vc856PMH8NbbIFn92b0+IVQnBc8pW9BmtmUSvxXkdrA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</OriginalItemSpec>
