@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-15T13:27:15.544</Modified>
+      <Modified>2025-01-15T19:47:13.454</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-15T13:15:52.204</Modified>
+      <Modified>2025-01-15T19:43:11.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.runtimeconfig.json">
       <PackagePath>PersonalFinanceExpenses.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.dll">
       <PackagePath>PersonalFinanceExpenses.dll</PackagePath>
-      <Modified>2025-01-15T13:27:14.559</Modified>
+      <Modified>2025-01-15T19:47:10.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PersonalFinanceExpenses.exe</PackagePath>
-      <Modified>2025-01-15T13:27:14.878</Modified>
+      <Modified>2025-01-15T19:47:10.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -57,9 +57,13 @@
       <PackagePath>wwwroot\Data\credentials.json</PackagePath>
       <Modified>2025-01-14T12:17:05.624</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\tags.json">
+      <PackagePath>wwwroot\Data\tags.json</PackagePath>
+      <Modified>2025-01-15T19:25:50.544</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\transactions.json">
       <PackagePath>wwwroot\Data\transactions.json</PackagePath>
-      <Modified>2025-01-15T13:17:10.147</Modified>
+      <Modified>2025-01-15T19:45:50.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -655,7 +659,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>PersonalFinanceExpenses.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-01-15T13:18:22.640</Modified>
+      <Modified>2025-01-15T19:47:03.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -671,11 +675,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\PersonalFinanceExpenses.styles.css">
       <PackagePath>wwwroot\PersonalFinanceExpenses.styles.css</PackagePath>
-      <Modified>2025-01-15T13:15:20.775</Modified>
+      <Modified>2025-01-15T19:43:00.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
-      <PackagePath>wwwroot\PersonalFinanceExpenses.lqel4uiat0.bundle.scp.css</PackagePath>
-      <Modified>2025-01-15T13:15:20.780</Modified>
+      <PackagePath>wwwroot\PersonalFinanceExpenses.p1faoelumt.bundle.scp.css</PackagePath>
+      <Modified>2025-01-15T19:43:00.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -697,9 +701,13 @@
       <PackagePath>Components\Pages\LoginPage.razor.css</PackagePath>
       <Modified>2025-01-04T06:18:26.120</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\Tags.razor.css">
+      <PackagePath>Components\Pages\Tags.razor.css</PackagePath>
+      <Modified>2025-01-15T19:07:06.820</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationForm.razor.css">
       <PackagePath>Components\Pages\TranscationForm.razor.css</PackagePath>
-      <Modified>2025-01-15T07:06:16.788</Modified>
+      <Modified>2025-01-15T19:42:56.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationPage.razor.css">
       <PackagePath>Components\Pages\TranscationPage.razor.css</PackagePath>

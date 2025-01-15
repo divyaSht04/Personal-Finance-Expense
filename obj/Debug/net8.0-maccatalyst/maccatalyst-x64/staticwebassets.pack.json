@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Data\\credentials.json"
     },
     {
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "PackagePath": "staticwebassets\\Data\\tags.json"
+    },
+    {
       "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
       "PackagePath": "staticwebassets\\Data\\transactions.json"
     },

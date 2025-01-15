@@ -57,45 +57,6 @@
           "SelectedChildIndex": 12,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\LoginPage.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
-              "RelativeToolTip": "Components\\Pages\\LoginPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:30:47.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dashboard.razor",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Dashboard.razor",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
-              "RelativeToolTip": "Components\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T12:27:16.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TranscationBase.cs",
-              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
-              "RelativeDocumentMoniker": "Abstraction\\TranscationBase.cs",
-              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
-              "RelativeToolTip": "Abstraction\\TranscationBase.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:19:55.448Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
@@ -109,6 +70,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.razor",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\LoginPage.razor",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
+              "RelativeToolTip": "Components\\Pages\\LoginPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T12:30:47.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-15T12:27:16.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TranscationBase.cs",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
+              "RelativeDocumentMoniker": "Abstraction\\TranscationBase.cs",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Abstraction\\TranscationBase.cs",
+              "RelativeToolTip": "Abstraction\\TranscationBase.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBYAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T09:19:55.448Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\_Imports.razor",
@@ -117,8 +114,7 @@
               "RelativeToolTip": "Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:34:14.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:34:14.615Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,7 @@
               "RelativeToolTip": "Model\\Transcation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:32:14.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:32:14.274Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "Service\\TranscationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:19:14.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:19:14.105Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "Components\\Pages\\TranscationForm.razor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:18:12.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:18:12.855Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "Components\\Pages\\TranscationForm.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-15T09:18:07.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:18:07.418Z"
             },
             {
               "$type": "Document",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "Components\\Pages\\TranscationPage.razor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T09:04:04.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T09:04:04.445Z"
             },
             {
               "$type": "Document",
@@ -193,7 +184,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\TranscationPage.razor",
               "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\TranscationPage.razor",
               "RelativeToolTip": "Components\\Pages\\TranscationPage.razor",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-15T09:03:21.759Z",
               "EditorCaption": ""
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Service\\UserService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T02:55:52.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T02:55:52.923Z"
             }
           ]
         }

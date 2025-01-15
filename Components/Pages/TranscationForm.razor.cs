@@ -5,16 +5,21 @@ namespace PersonalFinanceExpenses.Components.Pages;
 
 public partial class TranscationForm : ComponentBase
 {
-    private Transaction transaction = new();
-    private string sourceInput = "";
-
-    private async Task HandleSubmit()
+    private Transaction transaction = new()
     {
-        transaction.Source = sourceInput.Split(',', StringSplitOptions.RemoveEmptyEntries);
-        TranscationService.AddTransaction(transaction);
-        transaction = new Transaction();
-        sourceInput = "";
+        Source = Array.Empty<string>() 
+    };
+    
+    private List<Tag> Tags = new();
 
-        await InvokeAsync(StateHasChanged);
+    protected override void OnInitialized()
+    {
+        Tags = TagsService.GetTags();
+    }
+
+    private void HandleSubmit()
+    {
+        TranscationService.AddTransaction(transaction);
+        Nav.NavigateTo("/transactions");
     }
 }

@@ -694,6 +694,134 @@ button:active[b-7y6v3xig8v] {
         gap: 0.5rem;
     }
 }
+/* /Components/Pages/Tags.razor.rz.scp.css */
+.sidebar[b-cmtahbulxx] {
+    width: 250px;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav[b-cmtahbulxx] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.sidebar-nav li[b-cmtahbulxx] {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-nav a[b-cmtahbulxx] {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #4a5568;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar-nav a:hover[b-cmtahbulxx],
+.sidebar-nav a.active[b-cmtahbulxx] {
+    background-color: #667eea;
+    color: white;
+}
+
+.logout-btn[b-cmtahbulxx] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.logout-btn:hover[b-cmtahbulxx] {
+    background-color: #c53030;
+}
+
+.tags-container[b-cmtahbulxx] {
+    margin-left: 250px;
+    padding: 2rem;
+    background-color: #f7fafc;
+    min-height: 100vh;
+}
+
+.tag-form[b-cmtahbulxx] {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tag-form label[b-cmtahbulxx] {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.tag-form input[b-cmtahbulxx] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.tags-table[b-cmtahbulxx] {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tags-table table[b-cmtahbulxx] {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tags-table th[b-cmtahbulxx],
+.tags-table td[b-cmtahbulxx] {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tags-table th[b-cmtahbulxx] {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.tags-table .action-btn.delete-btn[b-cmtahbulxx] {
+    background-color: #e53e3e;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.tags-table .action-btn.delete-btn:hover[b-cmtahbulxx] {
+    background-color: #c50330;
+}
 /* /Components/Pages/TranscationForm.razor.rz.scp.css */
 body[b-ueycvkhqnc] {
     font-family: Arial, sans-serif;
@@ -705,82 +833,69 @@ body[b-ueycvkhqnc] {
     min-height: 100vh;
     background-color: #f5f5f5;
 }
+.transaction-form-container[b-ueycvkhqnc] {
+    margin-left: 250px;
+    padding: 2rem;
+    background-color: #f7fafc;
+    min-height: 100vh;
+}
 
 .transaction-form[b-ueycvkhqnc] {
-    width: 100%;
-    max-width: 400px;
-    background: #fff;
-    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.transaction-form h2[b-ueycvkhqnc] {
-    margin-bottom: 20px;
-    text-align: center;
+.transaction-form .form-group[b-ueycvkhqnc] {
+    margin-bottom: 1rem;
 }
 
-.form-group[b-ueycvkhqnc] {
-    margin-bottom: 15px;
-    box-sizing: border-box;
-}
-
-.form-group label[b-ueycvkhqnc] {
+.transaction-form label[b-ueycvkhqnc] {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     font-weight: bold;
 }
 
-.form-group input[b-ueycvkhqnc],
-.form-group textarea[b-ueycvkhqnc],
-.form-group button[b-ueycvkhqnc] {
+.transaction-form input[b-ueycvkhqnc],
+.transaction-form select[b-ueycvkhqnc],
+.transaction-form textarea[b-ueycvkhqnc] {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
 }
 
-.form-group textarea[b-ueycvkhqnc] {
-    resize: none;
-    height: 80px;
+.transaction-form textarea[b-ueycvkhqnc] {
+    resize: vertical;
 }
 
-.transaction-type[b-ueycvkhqnc] {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.transaction-type label[b-ueycvkhqnc] {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.submit-button[b-ueycvkhqnc] {
-    background: linear-gradient(to right, #6a11cb, #2575fc);
+.transaction-form .submit-button[b-ueycvkhqnc] {
+    background-color: #3182ce;
     color: white;
+    padding: 0.75rem 1.5rem;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 1rem;
 }
 
-.submit-button:hover[b-ueycvkhqnc] {
-    opacity: 0.9;
+.transaction-form .submit-button:hover[b-ueycvkhqnc] {
+    background-color: #2b6cb0;
 }
 
-.back-button[b-ueycvkhqnc] {
+.transaction-form .back-button[b-ueycvkhqnc] {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    color: #3182ce;
     text-decoration: none;
-    color: #2575fc;
     font-weight: bold;
 }
 
-.back-button:hover[b-ueycvkhqnc] {
+.transaction-form .back-button:hover[b-ueycvkhqnc] {
     text-decoration: underline;
 }
 /* /Components/Pages/TranscationPage.razor.rz.scp.css */

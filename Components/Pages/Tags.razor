@@ -1,0 +1,58 @@
+﻿@page "/Tags";
+
+<nav class="sidebar">
+    <ul class="sidebar-nav">
+        <li><a href="/dashboard">Dashboard</a></li>
+        <li><a href="/transactions">All Transactions</a></li>
+        <li><a href="/tags" class="active">Manage Tags</a></li>
+    </ul>
+    <a href="/" class="logout-btn">Logout</a>
+</nav>
+
+<main class="tags-container">
+    <h1>Manage Tags</h1>
+
+    <div class="tag-form">
+        <form @onsubmit="HandleSubmit">
+            <div class="form-group">
+                <label for="tagName">Tag Name</label>
+                <input type="text" id="tagName" @bind="newTag.Name" placeholder="Enter tag name" required />
+            </div>
+            <button type="submit" class="submit-button">Add Tag</button>
+        </form>
+    </div>
+
+    <div class="tags-table">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tag Name</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (Tagss != null && Tagss.Any())
+            {
+                @foreach (var tag in Tagss)
+                {
+                    <tr>
+                        <td>@tag.Id</td>
+                        <td>@tag.Name</td>
+                        <td>
+                            <button class="action-btn delete-btn" @onclick="() => DeleteTag(tag.Id)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="3">No tags available.</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</main>
+

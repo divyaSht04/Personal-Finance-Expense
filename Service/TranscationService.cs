@@ -24,6 +24,7 @@ public class TranscationService : TranscationBase, ITranscations
     
     public void AddTransaction(Transaction transaction)
     {
+        transaction.Id = _transactions.Any() ? _transactions.Max(t => t.Id) + 1 : 1;
         _transactions.Add(transaction);
         SaveTransactions(_transactions);
     }
