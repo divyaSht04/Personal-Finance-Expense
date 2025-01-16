@@ -24,7 +24,7 @@
     "Id": 3,
     "TransactionAmount": 500,
     "Date": "2025-01-10",
-    "Type": "Debt",
+    "Type": "Credit",
     "Source": [
       "Personal Loan"
     ],

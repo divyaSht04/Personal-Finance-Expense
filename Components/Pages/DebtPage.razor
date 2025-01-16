@@ -11,6 +11,7 @@
 <main class="debt-page-container">
     <h2>Manage Debts</h2>
 
+    <!-- Debt Form -->
     <div class="debt-form">
         <form @onsubmit="HandleSubmit">
             <div class="form-group">
@@ -42,41 +43,60 @@
         </form>
     </div>
 
+    <!-- Sorting and Filtering -->
     <div class="debts-table">
-        <h3>Existing Debts</h3>
+        <h3>Manage Debts</h3>
+
+        <div class="controls">
+            <div class="search-bar">
+                <input type="text" placeholder="Search debts..." @bind="SearchQuery" @bind:event="oninput" class="search-input" />
+            </div>
+            <div class="sort-buttons">
+                <button @onclick="() => SortByDate(true)" class="sort-btn">Sort by Date (Asc)</button>
+                <button @onclick="() => SortByDate(false)" class="sort-btn">Sort by Date (Desc)</button>
+                <button @onclick="() => SortByStatus(true)" class="sort-btn">Sort by Status (A-Z)</button>
+                <button @onclick="() => SortByStatus(false)" class="sort-btn">Sort by Status (Z-A)</button>
+            </div>
+        </div>
+
         <table>
             <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Amount</th>
-                    <th>Date</th>
-                    <th>Lender</th>
-                    <th>Status</th>
-                    <th>Note</th>
-                </tr>
+            <tr>
+                <th>ID</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Lender</th>
+                <th>Status</th>
+                <th>Note</th>
+                <th>Actions</th>
+            </tr>
             </thead>
             <tbody>
-                @if (Debts.Any())
-                {
-                    @foreach (var debt in Debts)
-                    {
-                        <tr>
-                            <td>@debt.Id</td>
-                            <td>@debt.Amount</td>
-                            <td>@debt.Date.ToString("yyyy-MM-dd")</td>
-                            <td>@debt.Lender</td>
-                            <td>@debt.Status</td>
-                            <td>@debt.Note</td>
-                        </tr>
-                    }
-                }
-                else
+            @if (FilteredDebts.Any())
+            {
+                @foreach (var debt in FilteredDebts)
                 {
                     <tr>
-                        <td colspan="7">No debts available.</td>
+                        <td>@debt.Id</td>
+                        <td>@debt.Amount</td>
+                        <td>@debt.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@debt.Lender</td>
+                        <td>@debt.Status</td>
+                        <td>@debt.Note</td>
+                        <td>
+                            <button @onclick="() => ToggleStatus(debt)" class="toggle-status-btn">Toggle Status</button>
+                        </td>
                     </tr>
                 }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7">No debts match your search criteria.</td>
+                </tr>
+            }
             </tbody>
         </table>
     </div>
 </main>
+

@@ -1363,32 +1363,3 @@ h2[b-mlur3eb5c3] {
     background-color: #c53030;
 }
 
-.controls[b-mlur3eb5c3] {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-.search-input[b-mlur3eb5c3] {
-    flex: 1;
-    padding: 0.5rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1rem;
-}
-
-.sort-btn[b-mlur3eb5c3] {
-    padding: 0.5rem 1rem;
-    background-color: #667eea;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.sort-btn:hover[b-mlur3eb5c3] {
-    background-color: #5a67d8;
-}

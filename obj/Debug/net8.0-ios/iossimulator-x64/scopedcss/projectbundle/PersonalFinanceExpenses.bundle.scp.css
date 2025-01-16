@@ -257,29 +257,49 @@ main[b-18racma341] {
 
 .stats-grid[b-bj1jtesc3g] {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr); /* Four boxes in one row */
+    gap: 1.5rem; /* Spacing between the boxes */
     margin-bottom: 2rem;
 }
 
+/* Stat Card: Inflow */
+.stat-card.inflow .amount[b-bj1jtesc3g] {
+    color: #38a169; /* Green for positive inflow */
+    font-weight: bold;
+}
+
+/* Stat Card: Outflow */
+.stat-card.outflow .amount[b-bj1jtesc3g] {
+    color: #e53e3e; /* Red for negative outflow */
+    font-weight: bold;
+}
+
+/* Stat Card: Due Debt */
+.stat-card.due-debt .amount[b-bj1jtesc3g] {
+    color: #dd6b20; /* Orange for due debts */
+    font-weight: bold;
+}
+
+/* Stat Card: Cleared Debt */
+.stat-card.cleared-debt .amount[b-bj1jtesc3g] {
+    color: #3182ce; /* Blue for cleared debts */
+    font-weight: bold;
+}
+
+/* Default styles for all stat cards */
 .stat-card[b-bj1jtesc3g] {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-    .stat-card h3[b-bj1jtesc3g] {
-        color: #4a5568;
-        font-size: 0.875rem;
-        margin-bottom: 0.5rem;
-    }
+.stat-card:hover[b-bj1jtesc3g] {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
 
-    .stat-card .amount[b-bj1jtesc3g] {
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: #2d3748;
-    }
 
 .charts-container[b-bj1jtesc3g] {
     display: grid;
@@ -669,6 +689,95 @@ textarea:focus[b-bj1jtesc3g] {
 
 .debts-table tbody tr:hover[b-qjgwwg0uh8] {
     background-color: #edf2f7;
+}
+
+.search-bar[b-qjgwwg0uh8] {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.search-input[b-qjgwwg0uh8] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    background-color: #f8fafc;
+}
+
+.search-input:focus[b-qjgwwg0uh8] {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+    outline: none;
+}
+
+table[b-qjgwwg0uh8] {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th[b-qjgwwg0uh8], td[b-qjgwwg0uh8] {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th[b-qjgwwg0uh8] {
+    background-color: #f7fafc;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    color: #4a5568;
+}
+
+td[b-qjgwwg0uh8] {
+    color: #2d3748;
+    font-size: 0.9rem;
+}
+
+tr:last-child td[b-qjgwwg0uh8] {
+    border-bottom: none;
+}
+
+tbody tr:hover[b-qjgwwg0uh8] {
+    background-color: #edf2f7;
+}
+
+.controls[b-qjgwwg0uh8] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.search-bar[b-qjgwwg0uh8] {
+    flex: 1;
+}
+
+.sort-buttons[b-qjgwwg0uh8] {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.sort-btn[b-qjgwwg0uh8] {
+    padding: 0.5rem 1rem;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+}
+
+.sort-btn:hover[b-qjgwwg0uh8] {
+    background-color: #5a67d8;
 }
 /* /Components/Pages/EditTranscation.razor.rz.scp.css */
 .transaction-form[b-vk0lp3tljs] {
@@ -1254,3 +1363,32 @@ h2[b-mlur3eb5c3] {
     background-color: #c53030;
 }
 
+.controls[b-mlur3eb5c3] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.search-input[b-mlur3eb5c3] {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.sort-btn[b-mlur3eb5c3] {
+    padding: 0.5rem 1rem;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sort-btn:hover[b-mlur3eb5c3] {
+    background-color: #5a67d8;
+}

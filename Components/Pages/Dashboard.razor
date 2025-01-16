@@ -15,29 +15,32 @@
     <header class="dashboard-header">
         <h1>Dashboard</h1>
         <div class="header-actions">
-            <button class="add-transaction-btn">  <a href="/transcationForm"> Add Transaction  </a>  </button>
+            <button class="add-transaction-btn">
+                <a href="/transcationForm"> Add Transaction </a>
+            </button>
             <div class="user-name">Divya Shrestha</div>
         </div>
     </header>
 
     <div class="stats-grid">
-        <div class="stat-card">
+        <div class="stat-card inflow">
             <h3>Total Inflow</h3>
-            <div class="amount">$5,240</div>
+            <div class="amount">@TotalCredit</div>
         </div>
-        <div class="stat-card">
+        <div class="stat-card outflow">
             <h3>Cash Outflow</h3>
-            <div class="amount">$3,120</div>
+            <div class="amount">@TotalDebit</div>
         </div>
-        <div class="stat-card">
+        <div class="stat-card due-debt">
             <h3>Due Debt</h3>
-            <div class="amount">$890</div>
+            <div class="amount">@DueDebt</div>
         </div>
-        <div class="stat-card">
-            <h3>Clear Debt</h3>
-            <div class="amount">$1,230</div>
+        <div class="stat-card cleared-debt">
+            <h3>Cleared Debt</h3>
+            <div class="amount">@ClearedDebt</div>
         </div>
     </div>
+
 
     <div class="charts-container">
         <div class="chart-card">

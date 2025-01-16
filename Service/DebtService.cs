@@ -25,4 +25,9 @@ public class DebtService: DebtBase, IDeptService
         _debts.Add(debt);
         SaveDebts(_debts);
     }
+
+    public void SaveUpdatedDept(List<Debt> debts)
+    {
+        SaveDebts(debts);
+    }
 }

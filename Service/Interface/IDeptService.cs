@@ -6,4 +6,5 @@ public interface IDeptService
 {
     List<Debt> GetDebts();
     void AddDebt(Debt debt);
+    void SaveUpdatedDept(List<Debt> debts);
 }

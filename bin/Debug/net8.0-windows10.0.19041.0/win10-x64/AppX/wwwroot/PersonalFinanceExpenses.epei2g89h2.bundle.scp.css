@@ -257,29 +257,49 @@ main[b-18racma341] {
 
 .stats-grid[b-bj1jtesc3g] {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr); /* Four boxes in one row */
+    gap: 1.5rem; /* Spacing between the boxes */
     margin-bottom: 2rem;
 }
 
+/* Stat Card: Inflow */
+.stat-card.inflow .amount[b-bj1jtesc3g] {
+    color: #38a169; /* Green for positive inflow */
+    font-weight: bold;
+}
+
+/* Stat Card: Outflow */
+.stat-card.outflow .amount[b-bj1jtesc3g] {
+    color: #e53e3e; /* Red for negative outflow */
+    font-weight: bold;
+}
+
+/* Stat Card: Due Debt */
+.stat-card.due-debt .amount[b-bj1jtesc3g] {
+    color: #dd6b20; /* Orange for due debts */
+    font-weight: bold;
+}
+
+/* Stat Card: Cleared Debt */
+.stat-card.cleared-debt .amount[b-bj1jtesc3g] {
+    color: #3182ce; /* Blue for cleared debts */
+    font-weight: bold;
+}
+
+/* Default styles for all stat cards */
 .stat-card[b-bj1jtesc3g] {
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-    .stat-card h3[b-bj1jtesc3g] {
-        color: #4a5568;
-        font-size: 0.875rem;
-        margin-bottom: 0.5rem;
-    }
+.stat-card:hover[b-bj1jtesc3g] {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
 
-    .stat-card .amount[b-bj1jtesc3g] {
-        font-size: 1.5rem;
-        font-weight: 600;
-        color: #2d3748;
-    }
 
 .charts-container[b-bj1jtesc3g] {
     display: grid;

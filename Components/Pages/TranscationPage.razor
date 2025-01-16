@@ -14,7 +14,14 @@
 <main class="transactions-container">
     <header class="transactions-header">
         <h1>All Transactions</h1>
-        <button class="export-btn" @onclick="ExportTransactions">Export</button>
+        <div class="controls">
+            <input type="text" placeholder="Search transactions..." @bind="SearchQuery" @bind:event="oninput" class="search-input" />
+            <button class="sort-btn" @onclick="() => SortByDate(true)">Sort by Date (Asc)</button>
+            <button class="sort-btn" @onclick="() => SortByDate(false)">Sort by Date (Desc)</button>
+            <button class="sort-btn" @onclick="() => SortByAmount(true)">Sort by Amount (Low to High)</button>
+            <button class="sort-btn" @onclick="() => SortByAmount(false)">Sort by Amount (High to Low)</button>
+            <button class="export-btn" @onclick="ExportTransactions">Export</button>
+        </div>
     </header>
 
     <div class="transactions-table">
@@ -30,9 +37,9 @@
             </tr>
             </thead>
             <tbody>
-            @if (Transactions != null && Transactions.Any())
+            @if (FilteredTransactions != null && FilteredTransactions.Any())
             {
-                @foreach (var transaction in Transactions)
+                @foreach (var transaction in FilteredTransactions)
                 {
                     <tr>
                         <td>@transaction.Id</td>
@@ -50,7 +57,7 @@
             else
             {
                 <tr>
-                    <td colspan="6">No transactions available.</td>
+                    <td colspan="6">No transactions match your search criteria.</td>
                 </tr>
             }
             </tbody>
@@ -127,4 +134,5 @@
         </section>
     </div>
 </main>
+
 </body>

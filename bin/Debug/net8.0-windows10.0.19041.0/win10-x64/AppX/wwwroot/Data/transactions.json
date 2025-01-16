@@ -14,7 +14,7 @@
     "Id": 2,
     "TransactionAmount": 200,
     "Date": "2025-01-12",
-    "Type": "Debit",
+    "Type": "Credit",
     "Source": [
       "Groceries"
     ],
@@ -24,7 +24,7 @@
     "Id": 3,
     "TransactionAmount": 500,
     "Date": "2025-01-10",
-    "Type": "Debt",
+    "Type": "Credit",
     "Source": [
       "Personal Loan"
     ],
