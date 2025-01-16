@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "taRA4rnCXD+TxpOhJsRILa5nuvaO+NcorwVYeuHa/BI=",
+  "Hash": "zxAVQFaH5pH0aL5t2PXmDe0wUebU2uFPJRn2wuELxA8=",
   "Source": "PersonalFinanceExpenses",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,6 +17,48 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhumzvqd1g",
+      "Integrity": "2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnojub5shy",
+      "Integrity": "lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
       "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Computed",
@@ -31,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "mad62prcbh",
-      "Integrity": "zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=",
+      "Fingerprint": "94fomh40l3",
+      "Integrity": "iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css"
@@ -52,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "mad62prcbh",
-      "Integrity": "zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=",
+      "Fingerprint": "94fomh40l3",
+      "Integrity": "iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css"
@@ -94,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "feu0vi7m73",
-      "Integrity": "GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk=",
+      "Fingerprint": "8snyl257ez",
+      "Integrity": "6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\debts.json"
@@ -136,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "okmngs1gub",
-      "Integrity": "+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o=",
+      "Fingerprint": "li7vgs473m",
+      "Integrity": "zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\transactions.json"
@@ -178,14 +220,88 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "a0zmuw5915",
-      "Integrity": "Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE=",
+      "Fingerprint": "6v6fx6jmbb",
+      "Integrity": "ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "580975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2gItJ0j/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 20:30:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0/0GU="
+        }
+      ]
+    },
     {
       "Route": "Data/credentials.json",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
@@ -269,7 +385,7 @@
       ]
     },
     {
-      "Route": "Data/debts.feu0vi7m73.json",
+      "Route": "Data/debts.8snyl257ez.json",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -279,7 +395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "621"
+          "Value": "633"
         },
         {
           "Name": "Content-Type",
@@ -287,11 +403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk=\""
+          "Value": "\"6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:59:09 GMT"
+          "Value": "Thu, 16 Jan 2025 00:06:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -301,7 +417,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "feu0vi7m73"
+          "Value": "8snyl257ez"
         },
         {
           "Name": "label",
@@ -309,7 +425,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk="
+          "Value": "sha256-6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA="
         }
       ]
     },
@@ -324,7 +440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "621"
+          "Value": "633"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk=\""
+          "Value": "\"6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:59:09 GMT"
+          "Value": "Thu, 16 Jan 2025 00:06:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +462,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk="
+          "Value": "sha256-6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA="
         }
       ]
     },
@@ -443,7 +559,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "756"
+          "Value": "755"
         },
         {
           "Name": "Content-Type",
@@ -451,11 +567,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o=\""
+          "Value": "\"zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:59:33 GMT"
+          "Value": "Thu, 16 Jan 2025 00:07:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -465,12 +581,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o="
+          "Value": "sha256-zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA="
         }
       ]
     },
     {
-      "Route": "Data/transactions.okmngs1gub.json",
+      "Route": "Data/transactions.li7vgs473m.json",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -480,7 +596,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "756"
+          "Value": "755"
         },
         {
           "Name": "Content-Type",
@@ -488,11 +604,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o=\""
+          "Value": "\"zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 23:59:33 GMT"
+          "Value": "Thu, 16 Jan 2025 00:07:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -502,7 +618,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "okmngs1gub"
+          "Value": "li7vgs473m"
         },
         {
           "Name": "label",
@@ -510,7 +626,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o="
+          "Value": "sha256-zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA="
         }
       ]
     },
@@ -597,7 +713,7 @@
       ]
     },
     {
-      "Route": "index.a0zmuw5915.html",
+      "Route": "index.6v6fx6jmbb.html",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -607,7 +723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "903"
+          "Value": "978"
         },
         {
           "Name": "Content-Type",
@@ -615,11 +731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE=\""
+          "Value": "\"ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 09:00:02 GMT"
+          "Value": "Thu, 16 Jan 2025 00:30:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -629,7 +745,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "a0zmuw5915"
+          "Value": "6v6fx6jmbb"
         },
         {
           "Name": "label",
@@ -637,7 +753,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE="
+          "Value": "sha256-ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ="
         }
       ]
     },
@@ -652,7 +768,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "903"
+          "Value": "978"
         },
         {
           "Name": "Content-Type",
@@ -660,11 +776,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE=\""
+          "Value": "\"ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 09:00:02 GMT"
+          "Value": "Thu, 16 Jan 2025 00:30:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -674,7 +790,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE="
+          "Value": "sha256-ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ="
+        }
+      ]
+    },
+    {
+      "Route": "PersonalFinanceExpenses.94fomh40l3.bundle.scp.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "94fomh40l3"
+        },
+        {
+          "Name": "label",
+          "Value": "PersonalFinanceExpenses.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
+        }
+      ]
+    },
+    {
+      "Route": "PersonalFinanceExpenses.94fomh40l3.styles.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25105"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "94fomh40l3"
+        },
+        {
+          "Name": "label",
+          "Value": "PersonalFinanceExpenses.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
         }
       ]
     },
@@ -689,7 +895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31106"
+          "Value": "25105"
         },
         {
           "Name": "Content-Type",
@@ -697,11 +903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=\""
+          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:04:46 GMT"
+          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -711,97 +917,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90="
-        }
-      ]
-    },
-    {
-      "Route": "PersonalFinanceExpenses.mad62prcbh.bundle.scp.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31106"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:04:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mad62prcbh"
-        },
-        {
-          "Name": "label",
-          "Value": "PersonalFinanceExpenses.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90="
-        }
-      ]
-    },
-    {
-      "Route": "PersonalFinanceExpenses.mad62prcbh.styles.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "31106"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:04:46 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mad62prcbh"
-        },
-        {
-          "Name": "label",
-          "Value": "PersonalFinanceExpenses.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90="
+          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
         }
       ]
     },
@@ -816,7 +932,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31106"
+          "Value": "25105"
         },
         {
           "Name": "Content-Type",
@@ -824,11 +940,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=\""
+          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:04:46 GMT"
+          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -838,7 +954,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90="
+          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
         }
       ]
     }

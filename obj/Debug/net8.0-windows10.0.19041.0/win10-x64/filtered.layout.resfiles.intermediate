@@ -1,3 +1,5 @@
+wwwroot\_content\MudBlazor\MudBlazor.min.css
+wwwroot\_content\MudBlazor\MudBlazor.min.js
 Components\Layout\MainLayout.razor.css
 Components\Layout\NavMenu.razor.css
 Components\Pages\Dashboard.razor.css
@@ -65,7 +67,7 @@ splashSplashScreen.scale-150.png
 splashSplashScreen.scale-200.png
 splashSplashScreen.scale-400.png
 wwwroot\PersonalFinanceExpenses.styles.css
-wwwroot\PersonalFinanceExpenses.mad62prcbh.bundle.scp.css
+wwwroot\PersonalFinanceExpenses.dl233ik0xz.bundle.scp.css
 AboutAssets.txt
 wwwroot\Data\credentials.json
 wwwroot\Data\debts.json

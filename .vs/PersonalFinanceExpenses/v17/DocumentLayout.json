@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|d:\\third year all folder\\dotnet\\first sem\\personalfinanceexpenses\\components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B2FABF8-F5CB-4AB3-8363-8ACC52A1C052}|PersonalFinanceExpenses.csproj|solutionrelative:components\\pages\\loginpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 73,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +46,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-16T01:00:21.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "Components\\Routes.razor",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Routes.razor",
+              "RelativeToolTip": "Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T00:52:03.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T00:51:54.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Dashboard.razor",
+              "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAzwDQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T00:43:54.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginPage.razor",
               "DocumentMoniker": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\LoginPage.razor",
               "ToolTip": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\Components\\Pages\\LoginPage.razor",
               "RelativeToolTip": "Components\\Pages\\LoginPage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-15T21:23:05.353Z",
               "EditorCaption": ""

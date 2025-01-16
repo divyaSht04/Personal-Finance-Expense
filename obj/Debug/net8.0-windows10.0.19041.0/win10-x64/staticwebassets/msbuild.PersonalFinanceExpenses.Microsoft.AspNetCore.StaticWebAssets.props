@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>feu0vi7m73</Fingerprint>
-      <Integrity>GW+vAuIVlvPI9dxZPW0hoHNR7xsgUwjj63tViB7C7yk=</Integrity>
+      <Fingerprint>8snyl257ez</Fingerprint>
+      <Integrity>6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\debts.json'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>okmngs1gub</Fingerprint>
-      <Integrity>+B3uvRSW/fjqT2kG6TY/7h95vvzOwGVpgbJci17a5+o=</Integrity>
+      <Fingerprint>li7vgs473m</Fingerprint>
+      <Integrity>zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\transactions.json'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>a0zmuw5915</Fingerprint>
-      <Integrity>Rrcp4l7/3hCQBc7Ho6aeEDzA1tsx630t1g+0/Rw6LzE=</Integrity>
+      <Fingerprint>6v6fx6jmbb</Fingerprint>
+      <Integrity>ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>mad62prcbh</Fingerprint>
-      <Integrity>zn4yWhxhpwZTTC8nTb+AcaDXtnEVUOglnLHKDb06h90=</Integrity>
+      <Fingerprint>dl233ik0xz</Fingerprint>
+      <Integrity>4drYoSeCO25tp03X+Ntmi4mvUiTt/i7QB0ihS1Oz0E8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</OriginalItemSpec>

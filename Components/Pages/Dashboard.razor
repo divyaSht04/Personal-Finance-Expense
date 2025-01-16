@@ -1,4 +1,4 @@
-﻿@page "/dashboard"
+﻿@page "/"
 
 <body>
 <nav class="sidebar">
@@ -22,6 +22,7 @@
         </div>
     </header>
 
+    <!-- Summary Stats -->
     <div class="stats-grid">
         <div class="stat-card inflow">
             <h3>Total Inflow</h3>
@@ -41,36 +42,27 @@
         </div>
     </div>
 
-
+    <!-- Charts Section -->
     <div class="charts-container">
-        <div class="chart-card">
-            <div class="chart-header">
-                <h3>Inflow Data</h3>
-                <div class="chart-filters">
-                    <select class="date-filter">
-                        <option>Last 7 days</option>
-                        <option>Last 30 days</option>
-                        <option>Last 90 days</option>
-                    </select>
-                    <button class="filter-btn">Filter</button>
-                </div>
-            </div>
-            <div class="chart-area" id="inflow-chart"></div>
-        </div>
-        <div class="chart-card">
-            <div class="chart-header">
-                <h3>Outflow Data</h3>
-                <div class="chart-filters">
-                    <select class="date-filter">
-                        <option>Last 7 days</option>
-                        <option>Last 30 days</option>
-                        <option>Last 90 days</option>
-                    </select>
-                    <button class="filter-btn">Filter</button>
-                </div>
-            </div>
-            <div class="chart-area" id="outflow-chart"></div>
-        </div>
+        <!-- Donut Chart -->
+        <MudCard>
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Transaction Types Distribution</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudChart ChartType="ChartType.Donut" TData="int" Labels="@TransactionLabels" Data="@TransactionData" />
+            </MudCardContent>
+        </MudCard>
+
+        <!-- Bar Chart -->
+        <MudCard>
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Inflow vs Outflow</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudChart ChartType="ChartType.Bar" TData="decimal" Labels="@BarChartLabels" Data="@BarChartData" />
+            </MudCardContent>
+        </MudCard>
     </div>
 </main>
 </body>

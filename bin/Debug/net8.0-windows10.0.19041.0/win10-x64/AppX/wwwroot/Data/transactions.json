@@ -14,7 +14,7 @@
     "Id": 2,
     "TransactionAmount": 200,
     "Date": "2025-01-12",
-    "Type": "Credit",
+    "Type": "Debit",
     "Source": [
       "Groceries"
     ],

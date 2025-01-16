@@ -4,7 +4,7 @@
     "Amount": 500,
     "Date": "2025-01-15",
     "Lender": "ICELY",
-    "Status": "Paid",
+    "Status": "Pending",
     "Note": "Loan for car repairs"
   },
   {
@@ -12,7 +12,7 @@
     "Amount": 1000,
     "Date": "2025-01-10",
     "Lender": "Yuzan",
-    "Status": "Paid",
+    "Status": "Pending",
     "Note": "Personal loan paid back"
   },
   {
@@ -20,7 +20,7 @@
     "Amount": 250,
     "Date": "2025-01-20",
     "Lender": "Nishant",
-    "Status": "Paid",
+    "Status": "Pending",
     "Note": "Short-term loan for utilities"
   },
   {
@@ -28,7 +28,7 @@
     "Amount": 5666,
     "Date": "2025-01-13",
     "Lender": "Ram",
-    "Status": "Paid",
+    "Status": "Pending",
     "Note": "tttt"
   }
 ]
