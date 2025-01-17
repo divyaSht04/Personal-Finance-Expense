@@ -27,7 +27,6 @@
         <table>
             <thead>
             <tr>
-                <th>ID</th>
                 <th>Tag Name</th>
                 <th>Actions</th>
             </tr>
@@ -38,7 +37,6 @@
                 @foreach (var tag in Tagss)
                 {
                     <tr>
-                        <td>@tag.Id</td>
                         <td>@tag.Name</td>
                         <td>
                             <button class="action-btn delete-btn" @onclick="() => DeleteTag(tag.Id)">Delete</button>

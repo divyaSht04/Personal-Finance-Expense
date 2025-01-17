@@ -11,7 +11,6 @@
 <main class="debt-page-container">
     <h2>Manage Debts</h2>
 
-    <!-- Debt Form -->
     <div class="debt-form">
         <form @onsubmit="HandleSubmit">
             <div class="form-group">
@@ -42,20 +41,13 @@
             </div>
         </form>
     </div>
-
-    <!-- Sorting and Filtering -->
+    
     <div class="debts-table">
         <h3>Manage Debts</h3>
 
         <div class="controls">
             <div class="search-bar">
                 <input type="text" placeholder="Search debts..." @bind="SearchQuery" @bind:event="oninput" class="search-input" />
-            </div>
-            <div class="sort-buttons">
-                <button @onclick="() => SortByDate(true)" class="sort-btn">Sort by Date (Asc)</button>
-                <button @onclick="() => SortByDate(false)" class="sort-btn">Sort by Date (Desc)</button>
-                <button @onclick="() => SortByStatus(true)" class="sort-btn">Sort by Status (A-Z)</button>
-                <button @onclick="() => SortByStatus(false)" class="sort-btn">Sort by Status (Z-A)</button>
             </div>
         </div>
 
@@ -99,4 +91,3 @@
         </table>
     </div>
 </main>
-

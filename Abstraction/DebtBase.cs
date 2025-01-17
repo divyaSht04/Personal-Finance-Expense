@@ -5,10 +5,8 @@ namespace PersonalFinanceExpenses.Abstraction;
 
 public abstract class DebtBase
 {
-    private static readonly string FilePath =
-        Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot", "Data",
-            "debts.json");
-
+    private static readonly string FilePath = Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot", "Data", "debts.json");
+    
     protected List<Debt> LoadDebts()
     {
         if (!File.Exists(FilePath)) return new List<Debt>();

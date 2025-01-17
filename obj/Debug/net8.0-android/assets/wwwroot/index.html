@@ -28,4 +28,15 @@
 
 </body>
 
+<script>
+    function downloadFile(fileName, contentType, content) {
+        const blob = new Blob([content], { type: contentType });
+        const link = document.createElement('a');
+        link.href = window.URL.createObjectURL(blob);
+        link.download = fileName;
+        link.click();
+        window.URL.revokeObjectURL(link.href);
+    }
+</script>
+
 </html>

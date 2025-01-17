@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zxAVQFaH5pH0aL5t2PXmDe0wUebU2uFPJRn2wuELxA8=",
+  "Hash": "pgHcwSAZCRZuPWw9OK5zr//Xd2YtFfFfIRYMw6W+vOU=",
   "Source": "PersonalFinanceExpenses",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "94fomh40l3",
-      "Integrity": "iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=",
+      "Fingerprint": "7jy4tptf0q",
+      "Integrity": "01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "94fomh40l3",
-      "Integrity": "iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=",
+      "Fingerprint": "7jy4tptf0q",
+      "Integrity": "01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8snyl257ez",
-      "Integrity": "6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=",
+      "Fingerprint": "6hz3aik60w",
+      "Integrity": "WmhFmHxvXNVcHWaee44CpsFJv3t+sCGB798X4aLKPIw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\debts.json"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8x6908x98d",
-      "Integrity": "TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=",
+      "Fingerprint": "m6u6tjayw9",
+      "Integrity": "spiKbWbUIYX4fwQOYgzDDxs0eXWcTZ2MroZH3WUe70E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\tags.json"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "li7vgs473m",
-      "Integrity": "zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=",
+      "Fingerprint": "l2k9n5fmog",
+      "Integrity": "3ehsd+2vSJ0RkDFNn87xxyrQ3aEVMJAkflQ5Z1Sphkc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\transactions.json"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6v6fx6jmbb",
-      "Integrity": "ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=",
+      "Fingerprint": "rtwvumqsb6",
+      "Integrity": "703L+pu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -385,7 +385,7 @@
       ]
     },
     {
-      "Route": "Data/debts.8snyl257ez.json",
+      "Route": "Data/debts.6hz3aik60w.json",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -395,7 +395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "633"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -403,11 +403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=\""
+          "Value": "\"WmhFmHxvXNVcHWaee44CpsFJv3t+sCGB798X4aLKPIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:06:55 GMT"
+          "Value": "Fri, 17 Jan 2025 03:15:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -417,7 +417,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8snyl257ez"
+          "Value": "6hz3aik60w"
         },
         {
           "Name": "label",
@@ -425,7 +425,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA="
+          "Value": "sha256-WmhFmHxvXNVcHWaee44CpsFJv3t+sCGB798X4aLKPIw="
         }
       ]
     },
@@ -440,7 +440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "633"
+          "Value": "630"
         },
         {
           "Name": "Content-Type",
@@ -448,11 +448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA=\""
+          "Value": "\"WmhFmHxvXNVcHWaee44CpsFJv3t+sCGB798X4aLKPIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:06:55 GMT"
+          "Value": "Fri, 17 Jan 2025 03:15:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -462,52 +462,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6DkRH4VemFwNiHdxBKje14uZ8obZe555Vc3t2mlIttA="
-        }
-      ]
-    },
-    {
-      "Route": "Data/tags.8x6908x98d.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "147"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:48:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8x6908x98d"
-        },
-        {
-          "Name": "label",
-          "Value": "Data/tags.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU="
+          "Value": "sha256-WmhFmHxvXNVcHWaee44CpsFJv3t+sCGB798X4aLKPIw="
         }
       ]
     },
@@ -522,7 +477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "147"
+          "Value": "193"
         },
         {
           "Name": "Content-Type",
@@ -530,11 +485,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU=\""
+          "Value": "\"spiKbWbUIYX4fwQOYgzDDxs0eXWcTZ2MroZH3WUe70E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Jan 2025 19:48:07 GMT"
+          "Value": "Thu, 16 Jan 2025 14:29:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -544,7 +499,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TPuoVXuxPRRJb4kMvAjl9+agYgzg1nChVLDpXrezhJU="
+          "Value": "sha256-spiKbWbUIYX4fwQOYgzDDxs0eXWcTZ2MroZH3WUe70E="
+        }
+      ]
+    },
+    {
+      "Route": "Data/tags.m6u6tjayw9.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spiKbWbUIYX4fwQOYgzDDxs0eXWcTZ2MroZH3WUe70E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Jan 2025 14:29:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m6u6tjayw9"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/tags.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-spiKbWbUIYX4fwQOYgzDDxs0eXWcTZ2MroZH3WUe70E="
         }
       ]
     },
@@ -559,7 +559,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "755"
+          "Value": "632"
         },
         {
           "Name": "Content-Type",
@@ -567,11 +567,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=\""
+          "Value": "\"3ehsd+2vSJ0RkDFNn87xxyrQ3aEVMJAkflQ5Z1Sphkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:07:12 GMT"
+          "Value": "Fri, 17 Jan 2025 03:26:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -581,12 +581,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA="
+          "Value": "sha256-3ehsd+2vSJ0RkDFNn87xxyrQ3aEVMJAkflQ5Z1Sphkc="
         }
       ]
     },
     {
-      "Route": "Data/transactions.li7vgs473m.json",
+      "Route": "Data/transactions.l2k9n5fmog.json",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -596,7 +596,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "755"
+          "Value": "632"
         },
         {
           "Name": "Content-Type",
@@ -604,11 +604,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA=\""
+          "Value": "\"3ehsd+2vSJ0RkDFNn87xxyrQ3aEVMJAkflQ5Z1Sphkc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:07:12 GMT"
+          "Value": "Fri, 17 Jan 2025 03:26:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -618,7 +618,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "li7vgs473m"
+          "Value": "l2k9n5fmog"
         },
         {
           "Name": "label",
@@ -626,7 +626,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zTcVEJ35pz82CXWcicRZM3QVaNC6q1QGKX9WQXvmNtA="
+          "Value": "sha256-3ehsd+2vSJ0RkDFNn87xxyrQ3aEVMJAkflQ5Z1Sphkc="
         }
       ]
     },
@@ -713,51 +713,6 @@
       ]
     },
     {
-      "Route": "index.6v6fx6jmbb.html",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:30:40 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6v6fx6jmbb"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ="
-        }
-      ]
-    },
-    {
       "Route": "index.html",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
       "Selectors": [],
@@ -768,7 +723,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "978"
+          "Value": "1347"
         },
         {
           "Name": "Content-Type",
@@ -776,11 +731,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ=\""
+          "Value": "\"703L+pu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:30:40 GMT"
+          "Value": "Fri, 17 Jan 2025 03:48:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -790,12 +745,57 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ghknrgim6XtQiWFtILxJyFf1rj28MtGBMdzTkbYliWQ="
+          "Value": "sha256-703L+pu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA="
         }
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.94fomh40l3.bundle.scp.css",
+      "Route": "index.rtwvumqsb6.html",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"703L+pu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 03:48:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rtwvumqsb6"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-703L+pu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA="
+        }
+      ]
+    },
+    {
+      "Route": "PersonalFinanceExpenses.7jy4tptf0q.bundle.scp.css",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -805,7 +805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25105"
+          "Value": "28271"
         },
         {
           "Name": "Content-Type",
@@ -813,11 +813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -827,7 +827,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "94fomh40l3"
+          "Value": "7jy4tptf0q"
         },
         {
           "Name": "label",
@@ -835,12 +835,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
+          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
         }
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.94fomh40l3.styles.css",
+      "Route": "PersonalFinanceExpenses.7jy4tptf0q.styles.css",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -850,7 +850,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25105"
+          "Value": "28271"
         },
         {
           "Name": "Content-Type",
@@ -858,11 +858,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -872,7 +872,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "94fomh40l3"
+          "Value": "7jy4tptf0q"
         },
         {
           "Name": "label",
@@ -880,7 +880,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
+          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
         }
       ]
     },
@@ -895,7 +895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25105"
+          "Value": "28271"
         },
         {
           "Name": "Content-Type",
@@ -903,11 +903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -917,7 +917,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
+          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
         }
       ]
     },
@@ -932,7 +932,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25105"
+          "Value": "28271"
         },
         {
           "Name": "Content-Type",
@@ -940,11 +940,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU=\""
+          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 00:35:50 GMT"
+          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -954,7 +954,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iVznXLvrGwkWp5Qk25azcCIdu3nemi5aAg76fFfM/PU="
+          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
         }
       ]
     }

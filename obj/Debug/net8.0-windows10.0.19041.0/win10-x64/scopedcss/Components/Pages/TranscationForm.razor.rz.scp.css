@@ -73,3 +73,11 @@ body[b-ueycvkhqnc] {
 .transaction-form .back-button:hover[b-ueycvkhqnc] {
     text-decoration: underline;
 }
+
+.error-message[b-ueycvkhqnc] {
+    color: #e53e3e; /* Red color */
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}

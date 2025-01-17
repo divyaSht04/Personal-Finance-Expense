@@ -5,134 +5,78 @@
     <ul class="sidebar-nav">
         <li><a href="/dashboard">Dashboard</a></li>
         <li><a href="/transactions" class="active">All Transactions</a></li>
-        <li><a href="/tags">Manage Tags</a></li>
+        <li><a href="/tags">Manage Tags</a></li>  
         <li><a href="/debts">Manage Debts</a></li>
     </ul>
     <a href="/" class="logout-btn">Logout</a>
 </nav>
 
 <main class="transactions-container">
-    <header class="transactions-header">
-        <h1>All Transactions</h1>
-        <div class="controls">
-            <input type="text" placeholder="Search transactions..." @bind="SearchQuery" @bind:event="oninput" class="search-input" />
-            <button class="sort-btn" @onclick="() => SortByDate(true)">Sort by Date (Asc)</button>
-            <button class="sort-btn" @onclick="() => SortByDate(false)">Sort by Date (Desc)</button>
-            <button class="sort-btn" @onclick="() => SortByAmount(true)">Sort by Amount (Low to High)</button>
-            <button class="sort-btn" @onclick="() => SortByAmount(false)">Sort by Amount (High to Low)</button>
-            <button class="export-btn" @onclick="ExportTransactions">Export</button>
+        <header class="transactions-header">
+            <h1>All Transactions</h1>
+            <button class="add-transaction-btn">
+                <a href="/transcationForm"> Add Transaction </a>
+            </button>
+            <button class="export-btn" @onclick="ExportToJson">Export to JSON</button>
+        </header>
+        
+        <div class="filter-controls">
+            <input type="text" placeholder="Search by Source Name or Amount" @bind="SearchQuery" class="filter-input" />
+            <div>
+                <label>Start Date:</label>
+                <input type="date" @bind="StartDate" />
+            </div>
+            <div>
+                <label>End Date:</label>
+                <input type="date" @bind="EndDate" />
+            </div>
+            <select @bind="SearchType" class="filter-select">
+                <option value="">All Types</option>
+                <option value="Credit">Credit</option>
+                <option value="Debit">Debit</option>
+            </select>
+            <button class="apply-filters-btn" @onclick="ApplyFilters">Apply Filters</button>
         </div>
-    </header>
-
-    <div class="transactions-table">
-        <table>
-            <thead>
-            <tr>
-                <th>ID</th>
-                <th>Transaction Type</th>
-                <th>Date</th>
-                <th>Source</th>
-                <th>Note</th>
-                <th>Actions</th>
-            </tr>
-            </thead>
-            <tbody>
-            @if (FilteredTransactions != null && FilteredTransactions.Any())
-            {
-                @foreach (var transaction in FilteredTransactions)
-                {
-                    <tr>
-                        <td>@transaction.Id</td>
-                        <td>@transaction.Type</td>
-                        <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
-                        <td>@string.Join(", ", transaction.Source)</td>
-                        <td>@transaction.Note</td>
-                        <td>
-                            <button class="action-btn edit-btn" @onclick="() => EditTransaction(transaction.Id)">Edit</button>
-                            <button class="action-btn delete-btn" @onclick="() => DeleteTransaction(transaction.Id)">Delete</button>
-                        </td>
-                    </tr>
-                }
-            }
-            else
-            {
-                <tr>
-                    <td colspan="6">No transactions match your search criteria.</td>
-                </tr>
-            }
-            </tbody>
-        </table>
-    </div>
-
-    <div class="transaction-highlights">
-        <section class="highest-transactions">
-            <h2 class="transaction-table-header">Highest Transactions</h2>
-            <table class="transaction-highlight-table">
+        
+        <div class="transactions-table">
+            <table>
                 <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Transaction Amount</th>
-                    <th>Type</th>
-                    <th>Date</th>
-                </tr>
+                    <tr>
+                        <th>Transaction Type</th>
+                        <th>Date</th>
+                        <th>Source</th>
+                        <th>Amount</th>
+                        <th>Note</th>
+                        <th>Actions</th>
+                    </tr>
                 </thead>
                 <tbody>
-                @if (HighestTransactions != null && HighestTransactions.Any())
-                {
-                    @foreach (var transaction in HighestTransactions)
+                    @if (FilteredTransactions != null && FilteredTransactions.Any())
+                    {
+                        @foreach (var transaction in FilteredTransactions)
+                        {
+                            <tr>
+                                <td>@transaction.Type</td>
+                                <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                                <td>@string.Join(", ", transaction.Source)</td>
+                                <td>@transaction.TransactionAmount</td>
+                                <td>@transaction.Note</td>
+                                <td>
+                                    <button class="action-btn edit-btn" @onclick="() => EditTransaction(transaction.Id)">Edit</button>
+                                    <button class="action-btn delete-btn" @onclick="() => DeleteTransaction(transaction.Id)">Delete</button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
                     {
                         <tr>
-                            <td>@transaction.Id</td>
-                            <td>@transaction.TransactionAmount</td>
-                            <td>@transaction.Type</td>
-                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                            <td colspan="6">No transactions match your search criteria.</td>
                         </tr>
                     }
-                }
-                else
-                {
-                    <tr>
-                        <td colspan="4">No highest transactions available.</td>
-                    </tr>
-                }
                 </tbody>
             </table>
-        </section>
-
-        <section class="lowest-transactions">
-            <h2 class="transaction-table-header">Lowest Transactions</h2>
-            <table class="transaction-highlight-table">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Transaction Amount</th>
-                    <th>Type</th>
-                    <th>Date</th>
-                </tr>
-                </thead>
-                <tbody>
-                @if (LowestTransactions != null && LowestTransactions.Any())
-                {
-                    @foreach (var transaction in LowestTransactions)
-                    {
-                        <tr>
-                            <td>@transaction.Id</td>
-                            <td>@transaction.TransactionAmount</td>
-                            <td>@transaction.Type</td>
-                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
-                        </tr>
-                    }
-                }
-                else
-                {
-                    <tr>
-                        <td colspan="4">No lowest transactions available.</td>
-                    </tr>
-                }
-                </tbody>
-            </table>
-        </section>
-    </div>
+        </div>
+        
 </main>
-
 </body>

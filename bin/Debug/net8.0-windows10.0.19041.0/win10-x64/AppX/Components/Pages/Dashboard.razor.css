@@ -104,28 +104,56 @@
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
+/* Summary Card Styles */
 .stat-card {
-    background: white;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .stat-card h3 {
-    color: #4a5568;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .stat-card .amount {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2d3748;
+}
+
+/* Colors for Each Card */
+.stat-card.inflow {
+    background-color: #48bb78; /* Green */
+}
+
+.stat-card.outflow {
+    background-color: #e53e3e; /* Red */
+}
+
+.stat-card.due-debt {
+    background-color: #ed8936; /* Orange */
+}
+
+.stat-card.cleared-debt {
+    background-color: #4299e1; /* Blue */
+}
+
+.stat-card.summary {
+    background-color: #9f7aea; /* Purple */
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .charts-container {
@@ -140,4 +168,48 @@
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.transaction-highlights {
+    display: grid;
+    gap: 2rem;
+}
+
+.highest-transactions,
+.lowest-transactions {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-highlight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.transaction-highlight-table th,
+.transaction-highlight-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-highlight-table th {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.transaction-highlight-table tr:last-child td {
+    border-bottom: none;
+}
+
+h2 {
+    color: #2d3748;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }

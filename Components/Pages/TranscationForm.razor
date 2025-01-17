@@ -17,7 +17,6 @@
             <div class="form-group transaction-type">
                 <label>Transaction Type</label>
                 <select @bind="transaction.Type">
-                    <option value="----" disabled>Select transaction type</option>
                     <option value="Credit">Credit</option>
                     <option value="Debit">Debit</option>
                 </select>
@@ -35,6 +34,12 @@
                 <label for="note">Note</label>
                 <textarea id="note" @bind="transaction.Note" placeholder="Enter note"></textarea>
             </div>
+
+            @if (!string.IsNullOrEmpty(ErrorMessage))
+            {
+                <p class="error-message">@ErrorMessage</p>
+            }
+
             <div class="form-group">
                 <button type="submit" class="submit-button">Submit Transaction</button>
             </div>

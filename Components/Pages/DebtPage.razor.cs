@@ -51,29 +51,6 @@ public partial class DebtPage : ComponentBase
         }
     }
 
-    private void SortByDate(bool ascending)
-    {
-        if (ascending)
-        {
-            FilteredDebts = FilteredDebts.OrderBy(debt => debt.Date).ToList();
-        }
-        else
-        {
-            FilteredDebts = FilteredDebts.OrderByDescending(debt => debt.Date).ToList();
-        }
-    }
-
-    private void SortByStatus(bool ascending)
-    {
-        if (ascending)
-        {
-            FilteredDebts = FilteredDebts.OrderBy(debt => debt.Status).ToList();
-        }
-        else
-        {
-            FilteredDebts = FilteredDebts.OrderByDescending(debt => debt.Status).ToList();
-        }
-    }
     private void ToggleStatus(Debt debt)
     {
         debt.Status = debt.Status == "Pending" ? "Paid" : "Pending";

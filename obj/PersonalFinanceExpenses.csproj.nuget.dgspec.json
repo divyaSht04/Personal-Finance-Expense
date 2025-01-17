@@ -92,6 +92,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.15.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -165,6 +169,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.15.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -226,6 +234,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.15.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -282,6 +294,10 @@
             "MudBlazor": {
               "target": "Package",
               "version": "[7.15.0, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

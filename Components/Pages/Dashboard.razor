@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@page "/dashboard"
 
 <body>
 <nav class="sidebar">
@@ -15,15 +15,16 @@
     <header class="dashboard-header">
         <h1>Dashboard</h1>
         <div class="header-actions">
-            <button class="add-transaction-btn">
-                <a href="/transcationForm"> Add Transaction </a>
-            </button>
             <div class="user-name">Divya Shrestha</div>
         </div>
     </header>
 
     <!-- Summary Stats -->
     <div class="stats-grid">
+        <div class="stat-card summary">
+            <h3>Summary Amount</h3>
+            <div class="amount">@TotalAmount</div>
+        </div>
         <div class="stat-card inflow">
             <h3>Total Inflow</h3>
             <div class="amount">@TotalCredit</div>
@@ -33,13 +34,14 @@
             <div class="amount">@TotalDebit</div>
         </div>
         <div class="stat-card due-debt">
-            <h3>Due Debt</h3>
-            <div class="amount">@DueDebt</div>
+            <h3>Pending Debt</h3>
+            <div class="amount">@PendingDebt</div>
         </div>
         <div class="stat-card cleared-debt">
             <h3>Cleared Debt</h3>
             <div class="amount">@ClearedDebt</div>
         </div>
+
     </div>
 
     <!-- Charts Section -->
@@ -64,5 +66,109 @@
             </MudCardContent>
         </MudCard>
     </div>
+    
+    <div class="transaction-highlights">
+        <section class="highest-transactions">
+            <h2>Highest Transactions</h2>
+            <table class="transaction-highlight-table">
+                <thead>
+                <tr>
+
+                    <th>Transaction Amount</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                @if (HighestTransactions.Any())
+                {
+                    @foreach (var transaction in HighestTransactions)
+                    {
+                        <tr>
+                            <td>@transaction.TransactionAmount</td>
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No highest transactions available.</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </section>
+
+        <section class="lowest-transactions">
+            <h2>Lowest Transactions</h2>
+            <table class="transaction-highlight-table">
+                <thead>
+                <tr>
+
+                    <th>Transaction Amount</th>
+                    <th>Type</th>
+                    <th>Date</th>
+                </tr>
+                </thead>
+                <tbody>
+                @if (LowestTransactions.Any())
+                {
+                    @foreach (var transaction in LowestTransactions)
+                    {
+                        <tr>
+                            <td>@transaction.TransactionAmount</td>
+                            <td>@transaction.Type</td>
+                            <td>@transaction.Date.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No lowest transactions available.</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <div class="debts-table">
+        <h2>Pending Debts</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Lender</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Note</th>
+            </tr>
+            </thead>
+            <tbody>
+            @if (PendingDebts.Any())
+            {
+                @foreach (var debt in PendingDebts)
+                {
+                    <tr>
+                        <td>@debt.Lender</td>
+                        <td>@debt.Amount</td>
+                        <td>@debt.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@debt.Note</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">No pending debts available.</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+
+    
 </main>
 </body>

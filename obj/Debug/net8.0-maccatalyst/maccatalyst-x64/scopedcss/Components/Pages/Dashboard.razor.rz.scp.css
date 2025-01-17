@@ -1,3 +1,87 @@
+.sidebar[b-bj1jtesc3g] {
+    width: 250px;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav[b-bj1jtesc3g] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+    .sidebar-nav li[b-bj1jtesc3g] {
+        margin-bottom: 0.5rem;
+    }
+
+    .sidebar-nav a[b-bj1jtesc3g] {
+        display: block;
+        padding: 0.75rem 1rem;
+        color: #4a5568;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+        .sidebar-nav a:hover[b-bj1jtesc3g],
+        .sidebar-nav a.active[b-bj1jtesc3g] {
+            background-color: #667eea;
+            color: white;
+        }
+
+.logout-btn[b-bj1jtesc3g] {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.logout-btn:hover[b-bj1jtesc3g] {
+    background-color: #c53030;
+}
+
+.charts-container[b-bj1jtesc3g] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.chart-card[b-bj1jtesc3g] {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header[b-bj1jtesc3g] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.chart-filters[b-bj1jtesc3g] {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .dashboard-container[b-bj1jtesc3g] {
     margin-left: 250px;
     padding: 2rem;
@@ -20,28 +104,56 @@
 
 .stats-grid[b-bj1jtesc3g] {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
+/* Summary Card Styles */
 .stat-card[b-bj1jtesc3g] {
-    background: white;
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .stat-card h3[b-bj1jtesc3g] {
-    color: #4a5568;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .stat-card .amount[b-bj1jtesc3g] {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2d3748;
+}
+
+/* Colors for Each Card */
+.stat-card.inflow[b-bj1jtesc3g] {
+    background-color: #48bb78; /* Green */
+}
+
+.stat-card.outflow[b-bj1jtesc3g] {
+    background-color: #e53e3e; /* Red */
+}
+
+.stat-card.due-debt[b-bj1jtesc3g] {
+    background-color: #ed8936; /* Orange */
+}
+
+.stat-card.cleared-debt[b-bj1jtesc3g] {
+    background-color: #4299e1; /* Blue */
+}
+
+.stat-card.summary[b-bj1jtesc3g] {
+    background-color: #9f7aea; /* Purple */
+}
+
+.stat-card:hover[b-bj1jtesc3g] {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .charts-container[b-bj1jtesc3g] {
@@ -56,4 +168,48 @@
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.transaction-highlights[b-bj1jtesc3g] {
+    display: grid;
+    gap: 2rem;
+}
+
+.highest-transactions[b-bj1jtesc3g],
+.lowest-transactions[b-bj1jtesc3g] {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-highlight-table[b-bj1jtesc3g] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.transaction-highlight-table th[b-bj1jtesc3g],
+.transaction-highlight-table td[b-bj1jtesc3g] {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-highlight-table th[b-bj1jtesc3g] {
+    background-color: #f7fafc;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.transaction-highlight-table tr:last-child td[b-bj1jtesc3g] {
+    border-bottom: none;
+}
+
+h2[b-bj1jtesc3g] {
+    color: #2d3748;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }

@@ -22,7 +22,6 @@ namespace PersonalFinanceExpenses
             builder.Services.AddScoped<ITranscations, TranscationService>();
             builder.Services.AddScoped<ITagsService, TagsService>();
             builder.Services.AddScoped<IDeptService, DebtService>();
-            
             builder.Services.AddMudServices();
             builder.Services.AddMauiBlazorWebView();
 

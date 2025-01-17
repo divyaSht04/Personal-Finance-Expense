@@ -1,66 +1,40 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
 using PersonalFinanceExpenses.Model;
-using PersonalFinanceExpenses.Service;
+using System.Text.Json;
+using System.Text;
 
 namespace PersonalFinanceExpenses.Components.Pages;
 
 public partial class TranscationPage : ComponentBase
 {
-    private string SearchQuery
-    {
-        get => _searchQuery;
-        set
-        {
-            _searchQuery = value;
-            FilterTransactions();
-        }
-    }
-    private string _searchQuery = string.Empty;
+    private string SearchQuery = string.Empty; 
+    private DateTime? StartDate = null;
+    private DateTime? EndDate = null;
+    private string SearchType = string.Empty;
 
     private List<Transaction> Transactions { get; set; } = new();
     private List<Transaction> FilteredTransactions { get; set; } = new();
-    private List<Transaction> HighestTransactions { get; set; } = new();
-    private List<Transaction> LowestTransactions { get; set; } = new();
 
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
         Transactions = TranscationService.GetTranscations();
         FilteredTransactions = Transactions;
-        HighestTransactions = Transactions.OrderByDescending(t => t.TransactionAmount).Take(5).ToList();
-        LowestTransactions = Transactions.OrderBy(t => t.TransactionAmount).Take(5).ToList();
     }
 
-    private void FilterTransactions()
+    private void ApplyFilters()
     {
-        FilteredTransactions = string.IsNullOrWhiteSpace(SearchQuery)
-            ? Transactions
-            : Transactions.Where(t =>
-                t.Type.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                t.Note?.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) == true ||
-                t.Source.Any(source => source.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)) ||
-                t.TransactionAmount.ToString().Contains(SearchQuery, StringComparison.OrdinalIgnoreCase) ||
-                t.Date.ToString("yyyy-MM-dd").Contains(SearchQuery)
+        FilteredTransactions = Transactions
+            .Where(t =>
+                (string.IsNullOrWhiteSpace(SearchQuery) || 
+                    t.Source.Any(s => s.Contains(SearchQuery, StringComparison.OrdinalIgnoreCase)) ||
+                    t.TransactionAmount.ToString().Contains(SearchQuery)) &&
+                (!StartDate.HasValue || t.Date.Date >= StartDate.Value.Date) &&
+                (!EndDate.HasValue || t.Date.Date <= EndDate.Value.Date) &&
+                (string.IsNullOrWhiteSpace(SearchType) || t.Type.Equals(SearchType, StringComparison.OrdinalIgnoreCase))
             ).ToList();
     }
-
-    private void SortByDate(bool ascending)
-    {
-        FilteredTransactions = ascending
-            ? FilteredTransactions.OrderBy(t => t.Date).ToList()
-            : FilteredTransactions.OrderByDescending(t => t.Date).ToList();
-    }
-
-    private void SortByAmount(bool ascending)
-    {
-        FilteredTransactions = ascending
-            ? FilteredTransactions.OrderBy(t => t.TransactionAmount).ToList()
-            : FilteredTransactions.OrderByDescending(t => t.TransactionAmount).ToList();
-    }
-
-    private void ExportTransactions()
-    {
-        Console.WriteLine("Export Transactions button clicked!");
-    }
+    
 
     private void DeleteTransaction(int transactionId)
     {
@@ -70,11 +44,22 @@ public partial class TranscationPage : ComponentBase
             Transactions.Remove(transaction);
             TranscationService.SaveTranscation(Transactions);
         }
-        OnInitializedAsync();
+        ApplyFilters();
     }
 
     private void EditTransaction(int transactionId)
     {
         Nav.NavigateTo($"/transactionForm/edit/{transactionId}");
+    }
+
+    private async Task ExportToJson()
+    {
+        var fileName = "All_Transactions.json";
+        var jsonContent = JsonSerializer.Serialize(FilteredTransactions, new JsonSerializerOptions { WriteIndented = true });
+
+        var byteArray = Encoding.UTF8.GetBytes(jsonContent);
+        var stream = new MemoryStream(byteArray);
+
+        await JSRuntime.InvokeVoidAsync("downloadFile", fileName, "application/json", stream.ToArray());
     }
 }

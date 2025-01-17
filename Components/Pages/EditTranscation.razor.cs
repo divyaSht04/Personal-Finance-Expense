@@ -7,11 +7,10 @@ public partial class EditTranscation : ComponentBase
 {
     [Parameter] public int TransactionId { get; set; }
     private Transaction transaction = new();
-    private string sourceInput = "";
-
+    private List<Tag> Tags = new();
+    
     protected override void OnInitialized()
     {
-        // Retrieve the transaction by ID
         var existingTransaction = TranscationService
             .GetTranscations()
             .FirstOrDefault(t => t.Id == TransactionId);
@@ -19,18 +18,17 @@ public partial class EditTranscation : ComponentBase
         if (existingTransaction != null)
         {
             transaction = existingTransaction;
-            sourceInput = string.Join(", ", transaction.Source);
         }
         else
         {
             Nav.NavigateTo("/transactions");
         }
+        
+        Tags = TagsService.GetTags();
     }
 
     private void HandleSubmit()
     {
-        transaction.Source = sourceInput.Split(',', StringSplitOptions.RemoveEmptyEntries);
-        
         var transactions = TranscationService.GetTranscations();
         var index = transactions.FindIndex(t => t.Id == TransactionId);
         if (index != -1)

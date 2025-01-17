@@ -1,4 +1,5 @@
-﻿.sidebar {
+﻿/* Sidebar */
+.sidebar {
     width: 250px;
     background-color: white;
     height: 100vh;
@@ -57,6 +58,7 @@
     background-color: #c53030;
 }
 
+/* Main Container */
 .transactions-container {
     margin-left: 250px;
     padding: 2rem;
@@ -66,11 +68,63 @@
 
 .transactions-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 2rem;
 }
 
+.add-transaction-btn{
+    height: 3.5rem;
+    width: 9rem;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.add-transaction-btn a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Filter Controls */
+.filter-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter-input, .filter-select {
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    min-width: 150px;
+}
+
+.apply-filters-btn {
+    padding: 0.5rem 1rem;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-filters-btn:hover {
+    background-color: #5a67d8;
+}
+
+/* Transactions Table */
 .transactions-table {
     background: white;
     padding: 1.5rem;
@@ -80,23 +134,51 @@
     overflow-x: auto;
 }
 
-table {
+.transactions-table table {
     width: 100%;
     border-collapse: collapse;
 }
 
-th, td {
-    padding: 1rem;
+.transactions-table th, .transactions-table td {
+    padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
 }
 
-th {
+.transactions-table th {
     background-color: #f7fafc;
-    color: #4a5568;
-    font-weight: 600;
+    font-weight: bold;
 }
 
+/* Action Buttons */
+.action-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #3182ce;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #2b6cb0;
+}
+
+.delete-btn {
+    background-color: #e53e3e;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c53030;
+}
+
+/* Highlights Section */
 .transaction-highlights {
     display: grid;
     gap: 2rem;
@@ -108,13 +190,6 @@ th {
     padding: 1.5rem;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.transaction-table-header {
-    color: #2d3748;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
 }
 
 .transaction-highlight-table {
@@ -144,61 +219,5 @@ h2 {
     color: #2d3748;
     font-size: 1.25rem;
     margin-bottom: 1rem;
-}
-
-.action-btn {
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-}
-
-.edit-btn {
-    background-color: #3182ce;
-    color: white;
-}
-
-.edit-btn:hover {
-    background-color: #2b6cb0;
-}
-
-.delete-btn {
-    background-color: #e53e3e;
-    color: white;
-}
-
-.delete-btn:hover {
-    background-color: #c53030;
-}
-
-.controls {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-.search-input {
-    flex: 1;
-    padding: 0.5rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 8px;
-    font-size: 1rem;
-}
-
-.sort-btn {
-    padding: 0.5rem 1rem;
-    background-color: #667eea;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.sort-btn:hover {
-    background-color: #5a67d8;
+    font-weight: 600;
 }

@@ -73,3 +73,11 @@
 .transaction-form .back-button:hover {
     text-decoration: underline;
 }
+
+.error-message {
+    color: #e53e3e; /* Red color */
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
