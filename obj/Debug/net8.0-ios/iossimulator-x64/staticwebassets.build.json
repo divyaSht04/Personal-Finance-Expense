@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mZiYTAQCF1ecO8IuO9qqlhbrQYKtGDzDk1lANQy/zDY=",
+  "Hash": "/vxVjZY4b1bJ0pR8zHDkoWNKOKPN1+IN1zJeoC2okz4=",
   "Source": "PersonalFinanceExpenses",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "1nz4d6h5xl",
-      "Integrity": "beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=",
+      "Fingerprint": "v0gn0eqhpm",
+      "Integrity": "IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "1nz4d6h5xl",
-      "Integrity": "beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=",
+      "Fingerprint": "v0gn0eqhpm",
+      "Integrity": "IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css"
@@ -795,96 +795,6 @@
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.1nz4d6h5xl.bundle.scp.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30002"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 04:43:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1nz4d6h5xl"
-        },
-        {
-          "Name": "label",
-          "Value": "PersonalFinanceExpenses.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
-        }
-      ]
-    },
-    {
-      "Route": "PersonalFinanceExpenses.1nz4d6h5xl.styles.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30002"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 04:43:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1nz4d6h5xl"
-        },
-        {
-          "Name": "label",
-          "Value": "PersonalFinanceExpenses.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
-        }
-      ]
-    },
-    {
       "Route": "PersonalFinanceExpenses.bundle.scp.css",
       "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
       "Selectors": [],
@@ -895,7 +805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30002"
+          "Value": "30685"
         },
         {
           "Name": "Content-Type",
@@ -903,11 +813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
+          "Value": "\"IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 04:43:02 GMT"
+          "Value": "Fri, 17 Jan 2025 04:55:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -917,7 +827,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
+          "Value": "sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="
         }
       ]
     },
@@ -932,7 +842,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30002"
+          "Value": "30685"
         },
         {
           "Name": "Content-Type",
@@ -940,11 +850,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
+          "Value": "\"IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 04:43:02 GMT"
+          "Value": "Fri, 17 Jan 2025 04:55:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -954,7 +864,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
+          "Value": "sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="
+        }
+      ]
+    },
+    {
+      "Route": "PersonalFinanceExpenses.v0gn0eqhpm.bundle.scp.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0gn0eqhpm"
+        },
+        {
+          "Name": "label",
+          "Value": "PersonalFinanceExpenses.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="
+        }
+      ]
+    },
+    {
+      "Route": "PersonalFinanceExpenses.v0gn0eqhpm.styles.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 04:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0gn0eqhpm"
+        },
+        {
+          "Name": "label",
+          "Value": "PersonalFinanceExpenses.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="
         }
       ]
     }

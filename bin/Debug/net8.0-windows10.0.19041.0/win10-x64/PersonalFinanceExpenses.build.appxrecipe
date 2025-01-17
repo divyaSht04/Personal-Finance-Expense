@@ -572,7 +572,7 @@
       <PackagePath>wwwroot\PersonalFinanceExpenses.styles.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
-      <PackagePath>wwwroot\PersonalFinanceExpenses.1nz4d6h5xl.bundle.scp.css</PackagePath>
+      <PackagePath>wwwroot\PersonalFinanceExpenses.v0gn0eqhpm.bundle.scp.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>

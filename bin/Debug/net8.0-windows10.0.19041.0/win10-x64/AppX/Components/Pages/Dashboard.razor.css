@@ -231,3 +231,36 @@
         grid-template-columns: 1fr;
     }
 }
+
+.date-range-filter {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.date-range-filter label {
+    font-weight: bold;
+    color: #4a5568;
+}
+
+.date-range-filter input {
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.apply-filters-btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #48bb78;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-filters-btn:hover {
+    background-color: #38a169;
+}

@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-17T04:43:14.219</Modified>
+      <Modified>2025-01-17T05:43:39.075</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-17T04:43:14.027</Modified>
+      <Modified>2025-01-17T04:55:58.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.runtimeconfig.json">
       <PackagePath>PersonalFinanceExpenses.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.dll">
       <PackagePath>PersonalFinanceExpenses.dll</PackagePath>
-      <Modified>2025-01-17T04:43:13.145</Modified>
+      <Modified>2025-01-17T05:43:35.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PersonalFinanceExpenses.exe</PackagePath>
-      <Modified>2025-01-17T04:43:13.354</Modified>
+      <Modified>2025-01-17T05:43:36.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -735,7 +735,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>PersonalFinanceExpenses.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-01-17T04:43:03.616</Modified>
+      <Modified>2025-01-17T04:55:54.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -759,11 +759,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\PersonalFinanceExpenses.styles.css">
       <PackagePath>wwwroot\PersonalFinanceExpenses.styles.css</PackagePath>
-      <Modified>2025-01-17T04:43:03.544</Modified>
+      <Modified>2025-01-17T04:55:54.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
-      <PackagePath>wwwroot\PersonalFinanceExpenses.1nz4d6h5xl.bundle.scp.css</PackagePath>
-      <Modified>2025-01-17T04:43:03.547</Modified>
+      <PackagePath>wwwroot\PersonalFinanceExpenses.v0gn0eqhpm.bundle.scp.css</PackagePath>
+      <Modified>2025-01-17T04:55:54.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -775,7 +775,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\Dashboard.razor.css">
       <PackagePath>Components\Pages\Dashboard.razor.css</PackagePath>
-      <Modified>2025-01-17T04:34:20.682</Modified>
+      <Modified>2025-01-17T04:55:48.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\DebtPage.razor.css">
       <PackagePath>Components\Pages\DebtPage.razor.css</PackagePath>

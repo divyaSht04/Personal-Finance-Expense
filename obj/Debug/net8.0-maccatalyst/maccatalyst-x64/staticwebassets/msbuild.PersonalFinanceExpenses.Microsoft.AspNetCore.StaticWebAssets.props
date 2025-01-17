@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>1nz4d6h5xl</Fingerprint>
-      <Integrity>beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=</Integrity>
+      <Fingerprint>v0gn0eqhpm</Fingerprint>
+      <Integrity>IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</OriginalItemSpec>

@@ -72,17 +72,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rtwvumqsb6"},{"Name":"integrity","Value":"sha256-703L\u002Bpu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA="},{"Name":"label","Value":"index.html"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1347"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022703L\u002Bpu3ql1naH6zMjGll72QL0VxebkFEgaOuCypPtA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 04:11:29 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="PersonalFinanceExpenses.1nz4d6h5xl.styles.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1nz4d6h5xl"},{"Name":"integrity","Value":"sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g\u002BtNv2irfBI84rw="},{"Name":"label","Value":"PersonalFinanceExpenses.styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30002"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022beJcns9yPRB6RXrfkW/PiisLNSx7g\u002BtNv2irfBI84rw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 04:43:03 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="PersonalFinanceExpenses.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g\u002BtNv2irfBI84rw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30002"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022beJcns9yPRB6RXrfkW/PiisLNSx7g\u002BtNv2irfBI84rw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 04:43:03 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"30685"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 04:55:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="PersonalFinanceExpenses.v0gn0eqhpm.styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PersonalFinanceExpenses.styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v0gn0eqhpm"},{"Name":"integrity","Value":"sha256-IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4="},{"Name":"label","Value":"PersonalFinanceExpenses.styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30685"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IXe/IPZU0hDCYY/a4jU2jcuF6ThtFBAoMmuyAlmYaS4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 17 Jan 2025 04:55:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

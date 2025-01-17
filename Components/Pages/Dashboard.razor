@@ -19,6 +19,16 @@
         </div>
     </header>
 
+    <!-- Date Range Filter -->
+    <div class="date-range-filter">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" @bind="StartDate" />
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" @bind="EndDate" />
+        <button class="apply-filters-btn" @onclick="ApplyFilters">Apply Filters</button>
+        <button class="reset-filters-btn" @onclick="ResetFilters">Reset Filters</button>
+    </div>
+
     <!-- Summary Stats -->
     <div class="stats-grid">
         <div class="stat-card summary">

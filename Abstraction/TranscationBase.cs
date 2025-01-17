@@ -8,7 +8,7 @@ namespace PersonalFinanceExpenses.Abstraction;
 
 public abstract class TranscationBase
 {
-    public readonly string FilePath = Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot", "Data", "transactions.json");
+    public readonly string FilePath = Path.Combine(AppContext.BaseDirectory,"wwwroot", "Data", "transactions.json");
 
     protected List<Transaction> loadAllTransactions()
     {
@@ -34,6 +34,4 @@ public abstract class TranscationBase
         var json = JsonSerializer.Serialize(transactions, options);
         File.WriteAllText(FilePath, json);
     }
-    
-    
 }
