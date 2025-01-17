@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tcnqc2VP2pQ=",
+  "dgSpecHash": "oj4WLG0VzHQ=",
   "success": true,
-  "projectFilePath": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\PersonalFinanceExpenses.csproj",
+  "projectFilePath": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\PersonalFinanceExpenses.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\itext\\9.0.0\\itext.9.0.0.nupkg.sha512",

@@ -1,4 +1,5 @@
-﻿.sidebar {
+﻿/* Sidebar Styles */
+.sidebar {
     width: 250px;
     background-color: white;
     height: 100vh;
@@ -18,24 +19,24 @@
     flex-grow: 1;
 }
 
-    .sidebar-nav li {
-        margin-bottom: 0.5rem;
-    }
+.sidebar-nav li {
+    margin-bottom: 0.5rem;
+}
 
-    .sidebar-nav a {
-        display: block;
-        padding: 0.75rem 1rem;
-        color: #4a5568;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: all 0.3s ease;
-    }
+.sidebar-nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #4a5568;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
 
-        .sidebar-nav a:hover,
-        .sidebar-nav a.active {
-            background-color: #667eea;
-            color: white;
-        }
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+    background-color: #667eea;
+    color: white;
+}
 
 .logout-btn {
     display: block;
@@ -57,31 +58,7 @@
     background-color: #c53030;
 }
 
-.charts-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
-.chart-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.chart-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.chart-filters {
-    display: flex;
-    gap: 0.5rem;
-}
-
+/* Dashboard Container */
 .dashboard-container {
     margin-left: 250px;
     padding: 2rem;
@@ -102,14 +79,14 @@
     color: #4a5568;
 }
 
+/* Stats Grid */
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     margin-bottom: 2rem;
 }
 
-/* Summary Card Styles */
 .stat-card {
     padding: 1.5rem;
     border-radius: 12px;
@@ -117,6 +94,10 @@
     color: white;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .stat-card h3 {
@@ -126,29 +107,34 @@
 }
 
 .stat-card .amount {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: bold;
 }
 
-/* Colors for Each Card */
+/* Stat Card Colors */
+.stat-card.summary {
+    background-color: #9f7aea; /* Purple */
+    border: 2px solid #805ad5;
+}
+
 .stat-card.inflow {
     background-color: #48bb78; /* Green */
+    border: 2px solid #38a169;
 }
 
 .stat-card.outflow {
     background-color: #e53e3e; /* Red */
+    border: 2px solid #c53030;
 }
 
 .stat-card.due-debt {
     background-color: #ed8936; /* Orange */
+    border: 2px solid #dd6b20;
 }
 
 .stat-card.cleared-debt {
     background-color: #4299e1; /* Blue */
-}
-
-.stat-card.summary {
-    background-color: #9f7aea; /* Purple */
+    border: 2px solid #3182ce;
 }
 
 .stat-card:hover {
@@ -156,6 +142,7 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Chart Section */
 .charts-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -170,7 +157,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Transaction Highlights */
 .transaction-highlights {
     display: grid;
     gap: 2rem;
@@ -184,32 +171,63 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.transaction-highlight-table {
+/* Table Styles */
+.transaction-highlight-table,
+.debts-table table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
 }
 
 .transaction-highlight-table th,
-.transaction-highlight-table td {
+.transaction-highlight-table td,
+.debts-table th,
+.debts-table td {
     padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
 }
 
-.transaction-highlight-table th {
+.transaction-highlight-table th,
+.debts-table th {
     background-color: #f7fafc;
     color: #4a5568;
     font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
 }
 
-.transaction-highlight-table tr:last-child td {
+.transaction-highlight-table td,
+.debts-table td {
+    color: #2d3748;
+    font-size: 0.9rem;
+}
+
+.transaction-highlight-table tr:last-child td,
+.debts-table tr:last-child td {
     border-bottom: none;
 }
 
-h2 {
-    color: #2d3748;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
+.transaction-highlight-table tbody tr:hover,
+.debts-table tbody tr:hover {
+    background-color: #edf2f7;
+}
+
+/* Improved Table Header Styles */
+.transaction-highlight-table th,
+.debts-table th {
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .charts-container {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
 }

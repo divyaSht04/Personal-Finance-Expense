@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lv2nk/rfcidtm3TtQXAmqHguw8x1d5vHqOMlfFyCJeA=",
+  "Hash": "tNa+DClY1RGRtBdAtCRK6l6TFu2qbl+Z847nvjinfTE=",
   "Source": "PersonalFinanceExpenses",
   "BasePath": "/",
   "Mode": "Root",
@@ -10,7 +10,7 @@
     {
       "Name": "PersonalFinanceExpenses\\wwwroot",
       "Source": "PersonalFinanceExpenses",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
     }
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\7.15.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\",
       "BasePath": "/",
       "RelativePath": "PersonalFinanceExpenses#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "7jy4tptf0q",
-      "Integrity": "01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=",
+      "Fingerprint": "1nz4d6h5xl",
+      "Integrity": "beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css"
+      "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\",
       "BasePath": "/",
       "RelativePath": "PersonalFinanceExpenses#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "7jy4tptf0q",
-      "Integrity": "01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=",
+      "Fingerprint": "1nz4d6h5xl",
+      "Integrity": "beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\credentials.json",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "Data/credentials#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\Data\\credentials.json"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\debts.json",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "Data/debts#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\Data\\debts.json"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\tags.json",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "Data/tags#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\Data\\tags.json"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\transactions.json",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "Data/transactions#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\Data\\transactions.json"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\favicon.png",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\favicon.png",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "Identity": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\index.html",
       "SourceId": "PersonalFinanceExpenses",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\",
+      "ContentRoot": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\",
       "BasePath": "/",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -304,7 +304,7 @@
     },
     {
       "Route": "Data/credentials.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\credentials.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -325,7 +325,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 12:17:05 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -341,7 +341,7 @@
     },
     {
       "Route": "Data/credentials.ubwy7i2sxt.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\credentials.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -362,7 +362,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 12:17:05 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -386,7 +386,7 @@
     },
     {
       "Route": "Data/debts.6hz3aik60w.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\debts.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -407,7 +407,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:15:37 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -431,7 +431,7 @@
     },
     {
       "Route": "Data/debts.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\debts.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -452,7 +452,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:15:37 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -468,7 +468,7 @@
     },
     {
       "Route": "Data/tags.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\tags.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -489,7 +489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 14:29:08 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -505,7 +505,7 @@
     },
     {
       "Route": "Data/tags.m6u6tjayw9.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\tags.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -526,7 +526,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Jan 2025 14:29:08 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -550,7 +550,7 @@
     },
     {
       "Route": "Data/transactions.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -571,7 +571,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:26:43 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -587,7 +587,7 @@
     },
     {
       "Route": "Data/transactions.l2k9n5fmog.json",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\transactions.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -608,7 +608,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:26:43 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -632,7 +632,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -653,7 +653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:21:11 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -677,7 +677,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -698,7 +698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 05:21:11 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -714,7 +714,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -735,7 +735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:48:51 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -751,7 +751,7 @@
     },
     {
       "Route": "index.rtwvumqsb6.html",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -772,7 +772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:48:51 GMT"
+          "Value": "Fri, 17 Jan 2025 04:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -795,8 +795,8 @@
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.7jy4tptf0q.bundle.scp.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
+      "Route": "PersonalFinanceExpenses.1nz4d6h5xl.bundle.scp.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -805,7 +805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28271"
+          "Value": "30002"
         },
         {
           "Name": "Content-Type",
@@ -813,11 +813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
+          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
+          "Value": "Fri, 17 Jan 2025 04:43:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -827,7 +827,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7jy4tptf0q"
+          "Value": "1nz4d6h5xl"
         },
         {
           "Name": "label",
@@ -835,13 +835,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
+          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
         }
       ]
     },
     {
-      "Route": "PersonalFinanceExpenses.7jy4tptf0q.styles.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "Route": "PersonalFinanceExpenses.1nz4d6h5xl.styles.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -850,7 +850,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28271"
+          "Value": "30002"
         },
         {
           "Name": "Content-Type",
@@ -858,11 +858,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
+          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
+          "Value": "Fri, 17 Jan 2025 04:43:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -872,7 +872,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7jy4tptf0q"
+          "Value": "1nz4d6h5xl"
         },
         {
           "Name": "label",
@@ -880,13 +880,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
+          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
         }
       ]
     },
     {
       "Route": "PersonalFinanceExpenses.bundle.scp.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\projectbundle\\PersonalFinanceExpenses.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -895,7 +895,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28271"
+          "Value": "30002"
         },
         {
           "Name": "Content-Type",
@@ -903,11 +903,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
+          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
+          "Value": "Fri, 17 Jan 2025 04:43:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -917,13 +917,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
+          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
         }
       ]
     },
     {
       "Route": "PersonalFinanceExpenses.styles.css",
-      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "AssetFile": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -932,7 +932,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28271"
+          "Value": "30002"
         },
         {
           "Name": "Content-Type",
@@ -940,11 +940,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII=\""
+          "Value": "\"beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 17 Jan 2025 03:42:42 GMT"
+          "Value": "Fri, 17 Jan 2025 04:43:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -954,7 +954,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-01inbF4+pixmoxA6L46ahiHNN3noSjhHSjtB5getcII="
+          "Value": "sha256-beJcns9yPRB6RXrfkW/PiisLNSx7g+tNv2irfBI84rw="
         }
       ]
     }

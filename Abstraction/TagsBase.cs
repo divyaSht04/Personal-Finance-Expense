@@ -5,7 +5,7 @@ namespace PersonalFinanceExpenses.Abstraction;
 
 public abstract class TagsBase
 {
-    public static readonly string FilePath = Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot", "Data", "tags.json");
+    public static readonly string FilePath = Path.Combine("D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot", "Data", "tags.json");
     
     protected List<Tag> LoadTags()
     {

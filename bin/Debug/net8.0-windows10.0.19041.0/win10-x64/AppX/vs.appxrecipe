@@ -10,13 +10,13 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.personalfinanceexpenses</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>EE138E3692ACE8C04B5CFFC85419537C758CFC8E7C94363AA246F315631E9A11</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.personalfinanceexpenses_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.personalfinanceexpenses_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,288 +26,288 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-17T03:49:21.777</Modified>
+      <Modified>2025-01-17T04:43:14.219</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-01-17T03:43:17.154</Modified>
+      <Modified>2025-01-17T04:43:14.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.runtimeconfig.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.runtimeconfig.json">
       <PackagePath>PersonalFinanceExpenses.runtimeconfig.json</PackagePath>
-      <Modified>2025-01-17T03:43:16.816</Modified>
+      <Modified>2025-01-17T04:14:04.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.dll">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.dll">
       <PackagePath>PersonalFinanceExpenses.dll</PackagePath>
-      <Modified>2025-01-17T03:49:19.865</Modified>
+      <Modified>2025-01-17T04:43:13.145</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PersonalFinanceExpenses.exe</PackagePath>
-      <Modified>2025-01-17T03:49:20.191</Modified>
+      <Modified>2025-01-17T04:43:13.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-01-04T05:21:11.462</Modified>
+      <Modified>2025-01-17T04:11:20.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\credentials.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\Data\credentials.json">
       <PackagePath>wwwroot\Data\credentials.json</PackagePath>
-      <Modified>2025-01-14T12:17:05.624</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\debts.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\Data\debts.json">
       <PackagePath>wwwroot\Data\debts.json</PackagePath>
-      <Modified>2025-01-17T03:15:37.695</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\tags.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\Data\tags.json">
       <PackagePath>wwwroot\Data\tags.json</PackagePath>
-      <Modified>2025-01-16T14:29:08.659</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\Data\transactions.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\Data\transactions.json">
       <PackagePath>wwwroot\Data\transactions.json</PackagePath>
-      <Modified>2025-01-17T03:26:43.986</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\favicon.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
-      <Modified>2025-01-04T05:21:11.464</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\wwwroot\index.html">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
-      <Modified>2025-01-17T03:48:51.043</Modified>
+      <Modified>2025-01-17T04:11:29.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:09.826</Modified>
+      <Modified>2025-01-17T04:13:20.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:09.855</Modified>
+      <Modified>2025-01-17T04:13:20.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:09.895</Modified>
+      <Modified>2025-01-17T04:13:20.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:09.948</Modified>
+      <Modified>2025-01-17T04:13:20.999</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:10.131</Modified>
+      <Modified>2025-01-17T04:13:21.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-01-04T05:21:11.459</Modified>
+      <Modified>2025-01-17T04:11:20.656</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.764</Modified>
+      <Modified>2025-01-17T04:13:25.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.474</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.473</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.763</Modified>
+      <Modified>2025-01-17T04:13:25.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.762</Modified>
+      <Modified>2025-01-17T04:13:25.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-01-17T03:43:13.761</Modified>
+      <Modified>2025-01-17T04:13:25.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.deps.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PersonalFinanceExpenses.deps.json">
       <PackagePath>PersonalFinanceExpenses.deps.json</PackagePath>
-      <Modified>2025-01-17T03:43:16.774</Modified>
+      <Modified>2025-01-17T04:14:04.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.54\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -733,9 +733,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>PersonalFinanceExpenses.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-01-17T03:49:08.286</Modified>
+      <Modified>2025-01-17T04:43:03.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\DELL\.nuget\packages\microsoft.maui.controls.compatibility\8.0.83\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -757,49 +757,49 @@
       <PackagePath>wwwroot\_content\MudBlazor\MudBlazor.min.js</PackagePath>
       <Modified>2024-10-29T20:30:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\PersonalFinanceExpenses.styles.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\PersonalFinanceExpenses.styles.css">
       <PackagePath>wwwroot\PersonalFinanceExpenses.styles.css</PackagePath>
-      <Modified>2025-01-17T03:42:28.432</Modified>
+      <Modified>2025-01-17T04:43:03.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
-      <PackagePath>wwwroot\PersonalFinanceExpenses.7jy4tptf0q.bundle.scp.css</PackagePath>
-      <Modified>2025-01-17T03:42:28.436</Modified>
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\PersonalFinanceExpenses.bundle.scp.css">
+      <PackagePath>wwwroot\PersonalFinanceExpenses.1nz4d6h5xl.bundle.scp.css</PackagePath>
+      <Modified>2025-01-17T04:43:03.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Layout\MainLayout.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
-      <Modified>2025-01-04T08:59:48.840</Modified>
+      <Modified>2025-01-17T04:11:20.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Layout\NavMenu.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
-      <Modified>2025-01-04T08:59:46.163</Modified>
+      <Modified>2025-01-17T04:11:20.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\Dashboard.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\Dashboard.razor.css">
       <PackagePath>Components\Pages\Dashboard.razor.css</PackagePath>
-      <Modified>2025-01-17T03:18:05.921</Modified>
+      <Modified>2025-01-17T04:34:20.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\DebtPage.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\DebtPage.razor.css">
       <PackagePath>Components\Pages\DebtPage.razor.css</PackagePath>
-      <Modified>2025-01-16T13:14:02.671</Modified>
+      <Modified>2025-01-17T04:11:20.645</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\EditTranscation.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\EditTranscation.razor.css">
       <PackagePath>Components\Pages\EditTranscation.razor.css</PackagePath>
-      <Modified>2025-01-15T13:12:43.827</Modified>
+      <Modified>2025-01-17T04:11:20.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\LoginPage.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\LoginPage.razor.css">
       <PackagePath>Components\Pages\LoginPage.razor.css</PackagePath>
-      <Modified>2025-01-04T06:18:26.120</Modified>
+      <Modified>2025-01-17T04:11:20.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\Tags.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\Tags.razor.css">
       <PackagePath>Components\Pages\Tags.razor.css</PackagePath>
-      <Modified>2025-01-15T19:07:06.820</Modified>
+      <Modified>2025-01-17T04:11:20.647</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationForm.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\TranscationForm.razor.css">
       <PackagePath>Components\Pages\TranscationForm.razor.css</PackagePath>
-      <Modified>2025-01-17T03:27:59.201</Modified>
+      <Modified>2025-01-17T04:11:20.647</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\PersonalFinanceExpenses\Components\Pages\TranscationPage.razor.css">
+    <AppxPackagedFile Include="D:\Third Year All folder\dotNet\First Sem\CourseWork\Components\Pages\TranscationPage.razor.css">
       <PackagePath>Components\Pages\TranscationPage.razor.css</PackagePath>
-      <Modified>2025-01-16T14:03:35.956</Modified>
+      <Modified>2025-01-17T04:42:53.555</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -68,60 +68,69 @@
 
 .transactions-header[b-mlur3eb5c3] {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 
-.add-transaction-btn[b-mlur3eb5c3]{
-    height: 3.5rem;
-    width: 9rem;
+.add-transaction-btn[b-mlur3eb5c3], .export-btn[b-mlur3eb5c3] {
+    padding: 0.75rem 1.5rem;
+    background-color: #3182ce;
     color: white;
-    background: red;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    text-align: center;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.add-transaction-btn a[b-mlur3eb5c3] {
+    color: white;
     text-decoration: none;
 }
-.add-transaction-btn a[b-mlur3eb5c3]{
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
+
+.add-transaction-btn:hover[b-mlur3eb5c3],
+.export-btn:hover[b-mlur3eb5c3] {
+    background-color: #2b6cb0;
 }
 
 /* Filter Controls */
 .filter-controls[b-mlur3eb5c3] {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
+    margin-bottom: 1.5rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .filter-input[b-mlur3eb5c3], .filter-select[b-mlur3eb5c3] {
-    padding: 0.5rem;
-    border: 1px solid #e2e8f0;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0;
     border-radius: 8px;
     font-size: 1rem;
-    min-width: 150px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filter-input:focus[b-mlur3eb5c3], .filter-select:focus[b-mlur3eb5c3] {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
 }
 
 .apply-filters-btn[b-mlur3eb5c3] {
-    padding: 0.5rem 1rem;
-    background-color: #667eea;
+    padding: 0.75rem 1.5rem;
+    background-color: #48bb78;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .apply-filters-btn:hover[b-mlur3eb5c3] {
-    background-color: #5a67d8;
+    background-color: #38a169;
 }
 
 /* Transactions Table */
@@ -129,25 +138,39 @@
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow-x: auto;
 }
 
 .transactions-table table[b-mlur3eb5c3] {
     width: 100%;
     border-collapse: collapse;
-}
-
-.transactions-table th[b-mlur3eb5c3], .transactions-table td[b-mlur3eb5c3] {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid #e2e8f0;
+    font-size: 1rem;
 }
 
 .transactions-table th[b-mlur3eb5c3] {
     background-color: #f7fafc;
+    color: #4a5568;
     font-weight: bold;
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 2px solid #e2e8f0;
+    text-transform: uppercase;
+}
+
+.transactions-table td[b-mlur3eb5c3] {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    color: #2d3748;
+}
+
+.transactions-table tr:hover[b-mlur3eb5c3] {
+    background-color: #edf2f7;
+}
+
+.transactions-table tr:last-child td[b-mlur3eb5c3] {
+    border-bottom: none;
 }
 
 /* Action Buttons */
@@ -189,7 +212,7 @@
     background: white;
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .transaction-highlight-table[b-mlur3eb5c3] {
@@ -198,26 +221,43 @@
     margin-top: 1rem;
 }
 
-.transaction-highlight-table th[b-mlur3eb5c3],
+.transaction-highlight-table th[b-mlur3eb5c3] {
+    background-color: #667eea;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid #e2e8f0;
+}
+
 .transaction-highlight-table td[b-mlur3eb5c3] {
     padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
+    color: #2d3748;
 }
 
-.transaction-highlight-table th[b-mlur3eb5c3] {
-    background-color: #f7fafc;
-    color: #4a5568;
-    font-weight: 600;
+.transaction-highlight-table tr:hover[b-mlur3eb5c3] {
+    background-color: #edf2f7;
 }
 
 .transaction-highlight-table tr:last-child td[b-mlur3eb5c3] {
     border-bottom: none;
 }
 
+.transaction-highlight-table th:first-child[b-mlur3eb5c3],
+.transaction-highlight-table td:first-child[b-mlur3eb5c3] {
+    border-radius: 8px 0 0 8px;
+}
+
+.transaction-highlight-table th:last-child[b-mlur3eb5c3],
+.transaction-highlight-table td:last-child[b-mlur3eb5c3] {
+    border-radius: 0 8px 8px 0;
+}
+
 h2[b-mlur3eb5c3] {
     color: #2d3748;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 1rem;
-    font-weight: 600;
 }

@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\Debug\\net8.0-ios\\iossimulator-x64\\scopedcss\\bundle\\PersonalFinanceExpenses.styles.css",
       "PackagePath": "staticwebassets\\PersonalFinanceExpenses.styles.css"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\credentials.json",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\credentials.json",
       "PackagePath": "staticwebassets\\Data\\credentials.json"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\debts.json",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\debts.json",
       "PackagePath": "staticwebassets\\Data\\debts.json"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\tags.json",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\tags.json",
       "PackagePath": "staticwebassets\\Data\\tags.json"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\Data\\transactions.json",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\Data\\transactions.json",
       "PackagePath": "staticwebassets\\Data\\transactions.json"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\favicon.png",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\wwwroot\\index.html",
+      "Id": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

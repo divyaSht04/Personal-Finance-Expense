@@ -3,7 +3,7 @@ using PersonalFinanceExpenses.Model;
 
 namespace PersonalFinanceExpenses.Abstraction;
 
-public class Userbase
+public class Userbase 
 {
     private static string FilePath = Path.Combine(FileSystem.AppDataDirectory, "user.json");
     protected List<User> LoadUser()

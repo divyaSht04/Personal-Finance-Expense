@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\PersonalFinanceExpenses.csproj": {}
+    "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\PersonalFinanceExpenses.csproj": {}
   },
   "projects": {
-    "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\PersonalFinanceExpenses.csproj": {
+    "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\PersonalFinanceExpenses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\PersonalFinanceExpenses.csproj",
+        "projectUniqueName": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\PersonalFinanceExpenses.csproj",
         "projectName": "PersonalFinanceExpenses",
-        "projectPath": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\PersonalFinanceExpenses.csproj",
+        "projectPath": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\PersonalFinanceExpenses.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Third Year All folder\\dotNet\\First Sem\\PersonalFinanceExpenses\\obj\\",
+        "outputPath": "D:\\Third Year All folder\\dotNet\\First Sem\\CourseWork\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

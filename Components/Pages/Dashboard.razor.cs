@@ -34,12 +34,10 @@ public partial class Dashboard
 
         // Summary Amount
         TotalAmount = TotalCredit + PendingDebt - TotalDebit;
-
-        // Donut Chart Data
+        
         TransactionLabels = transactions.GroupBy(t => t.Type).Select(g => g.Key).ToList();
         TransactionData = transactions.GroupBy(t => t.Type).Select(g => g.Count()).ToList();
-
-        // Bar Chart Data
+        
         BarChartData = new List<decimal> { TotalCredit, TotalDebit };
 
         // Pending Debts Table
